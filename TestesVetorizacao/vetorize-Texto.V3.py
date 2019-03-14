@@ -16,14 +16,12 @@ def LoadArquivsaida():
     
     documento = {}
     file = path + '/Senhora/TreinoPVetorizar.txt'    
-<<<<<<< HEAD
-    file = path +'/ArqsTeste/portaria4/portaria4.txt'
+    #file = path +'/ArqsTeste/portaria4/portaria4.txt'
     #file = path + '/ArqsTeste/1525092006con/1525092006con.txt'
     #file = path +'/ArqsTeste/1505082006mul/1505082006mul.txt'
     #file = path +'/ArqsTeste/1605082006mul/1605082006mul.txt'
-=======
-    file = path + '/HAREM/TreinoPVetorizar.txt'
->>>>>>> parent of 763695f1... Teste Vetorizacao Classification Report - codigo organizado
+    #file = path + '/HAREM/TreinoPVetorizar.txt'
+
     
     with open(file, 'r', encoding='utf-8') as infile:
         for line in infile:
@@ -135,7 +133,7 @@ from sklearn.neighbors import KNeighborsClassifier
 #logreg = LogisticRegression()
 #logreg.fit(X_train, y_train)
 
-<<<<<<< HEAD
+
 #y_pred = logreg.predict(X_test)
 #print(metrics.accuracy_score(y_test, y_pred))
 
@@ -143,15 +141,15 @@ from sklearn.neighbors import KNeighborsClassifier
 #knn.fit(X_train, y_train)
 #y_pred = knn.predict(X_test)
 #print(metrics.accuracy_score(y_test, y_pred))
-=======
-y_pred = logreg.predict(X_test)
-print(metrics.accuracy_score(y_test, y_pred))
 
-knn = KNeighborsClassifier(n_neighbors=5)
-knn.fit(X_train, y_train)
-y_pred = knn.predict(X_test)
-print(metrics.accuracy_score(y_test, y_pred))
->>>>>>> parent of 763695f1... Teste Vetorizacao Classification Report - codigo organizado
+#y_pred = logreg.predict(X_test)
+#print(metrics.accuracy_score(y_test, y_pred))
+
+#knn = KNeighborsClassifier(n_neighbors=5)
+#knn.fit(X_train, y_train)
+#y_pred = knn.predict(X_test)
+#print(metrics.accuracy_score(y_test, y_pred))
+
 
 
 # try K=1 through K=25 and record testing accuracy

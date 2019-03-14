@@ -145,8 +145,8 @@ def main(caminho):
     
         
     
-    #plt.xlabel('Value of K for KNN')
-    #plt.ylabel('Testing Accuracy')
+    plt.xlabel('Value of K for KNN')
+    plt.ylabel('Testing Accuracy')
     print('caminho: %s\n'% caminho)
     print(classification_report(y_test, y_pred))
     print(accuracy_score(y_test, y_pred))
