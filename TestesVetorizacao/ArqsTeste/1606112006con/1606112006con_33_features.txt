@@ -1,0 +1,11 @@
+ICO prop ini=cap cap=max simb=alpha prevW=null prevT=null prevCap=null nextW=REUMATOLOGISTA nextT=n nextCap=max prev2W=null prev2T=null prev2Cap=null next2W=Daniela next2T=n next2Cap=maxmin palpite=O
+REUMATOLOGISTA n ini=cap cap=max simb=alpha prevW=ICO prevT=prop prevCap=max nextW=Daniela nextT=n nextCap=maxmin prev2W=null prev2T=null prev2Cap=null next2W=Bergamim next2T=prop next2Cap=maxmin palpite=O
+Daniela n ini=cap cap=maxmin simb=alpha prevW=REUMATOLOGISTA prevT=n prevCap=max nextW=Bergamim nextT=prop nextCap=maxmin prev2W=ICO prev2T=prop prev2Cap=max next2W=Pereira next2T=n next2Cap=maxmin palpite=I_PESSOA
+Bergamim prop ini=cap cap=maxmin simb=alpha prevW=Daniela prevT=n prevCap=maxmin nextW=Pereira nextT=n nextCap=maxmin prev2W=REUMATOLOGISTA prev2T=n prev2Cap=max next2W=3,0 next2T=num next2Cap=null palpite=I_PESSOA
+Pereira n ini=cap cap=maxmin simb=alpha prevW=Bergamim prevT=prop prevCap=maxmin nextW=3,0 nextT=num nextCap=null prev2W=Daniela prev2T=n prev2Cap=maxmin next2W=1,0 next2T=num next2Cap=null palpite=I_PESSOA
+3,0 num ini=simb cap=null simb=null prevW=Pereira prevT=n prevCap=maxmin nextW=1,0 nextT=num nextCap=null prev2W=Bergamim prev2T=prop prev2Cap=maxmin next2W=4,0 next2T=num next2Cap=null palpite=O
+1,0 num ini=simb cap=null simb=null prevW=3,0 prevT=num prevCap=null nextW=4,0 nextT=num nextCap=null prev2W=Pereira prev2T=n prev2Cap=maxmin next2W=n next2T=n next2Cap=min palpite=O
+4,0 num ini=simb cap=null simb=null prevW=1,0 prevT=num prevCap=null nextW=n nextT=n nextCap=min prev2W=3,0 prev2T=num prev2Cap=null next2W=CIRURGI next2T=n next2Cap=max palpite=O
+n n ini=ncap cap=min simb=alpha prevW=4,0 prevT=num prevCap=null nextW=CIRURGI nextT=n nextCap=max prev2W=1,0 prev2T=num prev2Cap=null next2W=? next2T=punc next2Cap=null palpite=O
+CIRURGI n ini=cap cap=max simb=alpha prevW=n prevT=n prevCap=min nextW=? nextT=punc nextCap=null prev2W=4,0 prev2T=num prev2Cap=null next2W=null next2T=null next2Cap=null palpite=O
+? punc ini=simb cap=null simb=null prevW=CIRURGI prevT=n prevCap=max nextW=null nextT=null nextCap=null prev2W=n prev2T=n prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

@@ -1,0 +1,14 @@
+Fevereiro n ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=Dia nextT=n nextCap=maxmin prev2W=null prev2T=null prev2Cap=null next2W=5 next2T=num next2Cap=null palpite=I_TEMPO
+Dia n ini=cap cap=maxmin simb=alpha prevW=Fevereiro prevT=n prevCap=maxmin nextW=5 nextT=num nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=: next2T=punc next2Cap=null palpite=O
+5 num ini=simb cap=null simb=num prevW=Dia prevT=n prevCap=maxmin nextW=: nextT=punc nextCap=null prev2W=Fevereiro prev2T=n prev2Cap=maxmin next2W=In next2T=prop next2Cap=maxmin palpite=O
+: punc ini=simb cap=null simb=null prevW=5 prevT=num prevCap=null nextW=In nextT=prop nextCap=maxmin prev2W=Dia prev2T=n prev2Cap=maxmin next2W=?o next2T=n next2Cap=null palpite=O
+In prop ini=cap cap=maxmin simb=alpha prevW=: prevT=punc prevCap=null nextW=?o nextT=n nextCap=null prev2W=5 prev2T=num prev2Cap=null next2W=das next2T=n next2Cap=min palpite=O
+?o n ini=simb cap=null simb=null prevW=In prevT=prop prevCap=maxmin nextW=das nextT=n nextCap=min prev2W=: prev2T=punc prev2Cap=null next2W=aulas next2T=n next2Cap=min palpite=O
+das n ini=ncap cap=min simb=alpha prevW=?o prevT=n prevCap=null nextW=aulas nextT=n nextCap=min prev2W=In prev2T=prop prev2Cap=maxmin next2W=Come next2T=n next2Cap=maxmin palpite=O
+aulas n ini=ncap cap=min simb=alpha prevW=das prevT=n prevCap=min nextW=Come nextT=n nextCap=maxmin prev2W=?o prev2T=n prev2Cap=null next2W=?inscri next2T=n next2Cap=null palpite=O
+Come n ini=cap cap=maxmin simb=alpha prevW=aulas prevT=n prevCap=min nextW=?inscri nextT=n nextCap=null prev2W=das prev2T=n prev2Cap=min next2W=? next2T=punc next2Cap=null palpite=O
+?inscri n ini=simb cap=null simb=null prevW=Come prevT=n prevCap=maxmin nextW=? nextT=punc nextCap=null prev2W=aulas prev2T=n prev2Cap=min next2W=para next2T=prp next2Cap=min palpite=O
+? punc ini=simb cap=null simb=null prevW=?inscri prevT=n prevCap=null nextW=para nextT=prp nextCap=min prev2W=Come prev2T=n prev2Cap=maxmin next2W=remo next2T=adj next2Cap=min palpite=O
+para prp ini=ncap cap=min simb=alpha prevW=? prevT=punc prevCap=null nextW=remo nextT=adj nextCap=min prev2W=?inscri prev2T=n prev2Cap=null next2W=? next2T=punc next2Cap=null palpite=O
+remo adj ini=ncap cap=min simb=alpha prevW=para prevT=prp prevCap=min nextW=? nextT=punc nextCap=null prev2W=? prev2T=punc prev2Cap=null next2W=null next2T=null next2Cap=null palpite=O
+? punc ini=simb cap=null simb=null prevW=remo prevT=adj prevCap=min nextW=null nextT=null nextCap=null prev2W=para prev2T=prp prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

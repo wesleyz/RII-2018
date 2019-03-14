@@ -1,0 +1,10 @@
+Outras pron-det ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=214 nextT=num nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=passaram next2T=v-fin next2Cap=min palpite=O
+214 num ini=simb cap=null simb=num prevW=Outras prevT=pron-det prevCap=maxmin nextW=passaram nextT=v-fin nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=por next2T=prp next2Cap=min palpite=O
+passaram v-fin ini=ncap cap=min simb=alpha prevW=214 prevT=num prevCap=null nextW=por nextT=prp nextCap=min prev2W=Outras prev2T=pron-det prev2Cap=maxmin next2W=reformas next2T=n next2Cap=min palpite=O
+por prp ini=ncap cap=min simb=alpha prevW=passaram prevT=v-fin prevCap=min nextW=reformas nextT=n nextCap=min prev2W=214 prev2T=num prev2Cap=null next2W=e next2T=conj-c next2Cap=min palpite=O
+reformas n ini=ncap cap=min simb=alpha prevW=por prevT=prp prevCap=min nextW=e nextT=conj-c nextCap=min prev2W=passaram prev2T=v-fin prev2Cap=min next2W=85 next2T=num next2Cap=null palpite=O
+e conj-c ini=ncap cap=min simb=alpha prevW=reformas prevT=n prevCap=min nextW=85 nextT=num nextCap=null prev2W=por prev2T=prp prev2Cap=min next2W=foram next2T=v-fin next2Cap=min palpite=O
+85 num ini=simb cap=null simb=num prevW=e prevT=conj-c prevCap=min nextW=foram nextT=v-fin nextCap=min prev2W=reformas prev2T=n prev2Cap=min next2W=ampliadas next2T=v-pcp next2Cap=min palpite=O
+foram v-fin ini=ncap cap=min simb=alpha prevW=85 prevT=num prevCap=null nextW=ampliadas nextT=v-pcp nextCap=min prev2W=e prev2T=conj-c prev2Cap=min next2W=. next2T=punc next2Cap=null palpite=O
+ampliadas v-pcp ini=ncap cap=min simb=alpha prevW=foram prevT=v-fin prevCap=min nextW=. nextT=punc nextCap=null prev2W=85 prev2T=num prev2Cap=null next2W=null next2T=null next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=ampliadas prevT=v-pcp prevCap=min nextW=null nextT=null nextCap=null prev2W=foram prev2T=v-fin prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

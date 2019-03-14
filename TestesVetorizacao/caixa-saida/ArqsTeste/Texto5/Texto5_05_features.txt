@@ -1,0 +1,9 @@
+Formaram v-fin ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=uma nextT=art nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=grande next2T=adj next2Cap=min palpite=O
+uma art ini=ncap cap=min simb=alpha prevW=Formaram prevT=v-fin prevCap=maxmin nextW=grande nextT=adj nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=orquestra next2T=n next2Cap=min palpite=O
+grande adj ini=ncap cap=min simb=alpha prevW=uma prevT=art prevCap=min nextW=orquestra nextT=n nextCap=min prev2W=Formaram prev2T=v-fin prev2Cap=maxmin next2W=e next2T=conj-c next2Cap=min palpite=O
+orquestra n ini=ncap cap=min simb=alpha prevW=grande prevT=adj prevCap=min nextW=e nextT=conj-c nextCap=min prev2W=uma prev2T=art prev2Cap=min next2W=deixaram next2T=v-fin next2Cap=min palpite=O
+e conj-c ini=ncap cap=min simb=alpha prevW=orquestra prevT=n prevCap=min nextW=deixaram nextT=v-fin nextCap=min prev2W=grande prev2T=adj prev2Cap=min next2W=tudo next2T=pron-indp next2Cap=min palpite=O
+deixaram v-fin ini=ncap cap=min simb=alpha prevW=e prevT=conj-c prevCap=min nextW=tudo nextT=pron-indp nextCap=min prev2W=orquestra prev2T=n prev2Cap=min next2W=preparado next2T=v-pcp next2Cap=min palpite=O
+tudo pron-indp ini=ncap cap=min simb=alpha prevW=deixaram prevT=v-fin prevCap=min nextW=preparado nextT=v-pcp nextCap=min prev2W=e prev2T=conj-c prev2Cap=min next2W=. next2T=punc next2Cap=null palpite=O
+preparado v-pcp ini=ncap cap=min simb=alpha prevW=tudo prevT=pron-indp prevCap=min nextW=. nextT=punc nextCap=null prev2W=deixaram prev2T=v-fin prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=preparado prevT=v-pcp prevCap=min nextW=null nextT=null nextCap=null prev2W=tudo prev2T=pron-indp prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

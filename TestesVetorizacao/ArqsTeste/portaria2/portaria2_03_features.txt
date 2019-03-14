@@ -1,0 +1,10 @@
+II adj ini=cap cap=max simb=alpha prevW=null prevT=null prevCap=null nextW=– nextT=n nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=Dê-se next2T=n next2Cap=null palpite=O
+– n ini=simb cap=null simb=null prevW=II prevT=adj prevCap=max nextW=Dê-se nextT=n nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=ciência next2T=n next2Cap=min palpite=O
+Dê-se n ini=cap cap=null simb=null prevW=– prevT=n prevCap=null nextW=ciência nextT=n nextCap=min prev2W=II prev2T=adj prev2Cap=max next2W=e next2T=conj-c next2Cap=min palpite=O
+ciência n ini=ncap cap=min simb=alpha prevW=Dê-se prevT=n prevCap=null nextW=e nextT=conj-c nextCap=min prev2W=– prev2T=n prev2Cap=null next2W=publique-se next2T=n next2Cap=null palpite=O
+e conj-c ini=ncap cap=min simb=alpha prevW=ciência prevT=n prevCap=min nextW=publique-se nextT=n nextCap=null prev2W=Dê-se prev2T=n prev2Cap=null next2W=. next2T=punc next2Cap=null palpite=O
+publique-se n ini=ncap cap=null simb=null prevW=e prevT=conj-c prevCap=min nextW=. nextT=punc nextCap=null prev2W=ciência prev2T=n prev2Cap=min next2W=RICARDO next2T=n next2Cap=max palpite=O
+. punc ini=simb cap=null simb=null prevW=publique-se prevT=n prevCap=null nextW=RICARDO nextT=n nextCap=max prev2W=e prev2T=conj-c prev2Cap=min next2W=PAIVA next2T=prop next2Cap=max palpite=O
+RICARDO n ini=cap cap=max simb=alpha prevW=. prevT=punc prevCap=null nextW=PAIVA nextT=prop nextCap=max prev2W=publique-se prev2T=n prev2Cap=null next2W=Diretor-Geral next2T=prop next2Cap=null palpite=O
+PAIVA prop ini=cap cap=max simb=alpha prevW=RICARDO prevT=n prevCap=max nextW=Diretor-Geral nextT=prop nextCap=null prev2W=. prev2T=punc prev2Cap=null next2W=null next2T=null next2Cap=null palpite=O
+Diretor-Geral prop ini=cap cap=null simb=null prevW=PAIVA prevT=prop prevCap=max nextW=null nextT=null nextCap=null prev2W=RICARDO prev2T=n prev2Cap=max next2W=null next2T=null next2Cap=null palpite=O

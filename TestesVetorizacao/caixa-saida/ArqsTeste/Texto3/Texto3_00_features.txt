@@ -1,0 +1,6 @@
+Para prp ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=a nextT=art nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=água next2T=n next2Cap=min palpite=O
+a art ini=ncap cap=min simb=alpha prevW=Para prevT=prp prevCap=maxmin nextW=água nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=, next2T=punc next2Cap=null palpite=O
+água n ini=ncap cap=min simb=alpha prevW=a prevT=art prevCap=min nextW=, nextT=punc nextCap=null prev2W=Para prev2T=prp prev2Cap=maxmin next2W=patinho next2T=n next2Cap=min palpite=O
+, punc ini=simb cap=null simb=null prevW=água prevT=n prevCap=min nextW=patinho nextT=n nextCap=min prev2W=a prev2T=art prev2Cap=min next2W=! next2T=punc next2Cap=null palpite=O
+patinho n ini=ncap cap=min simb=alpha prevW=, prevT=punc prevCap=null nextW=! nextT=punc nextCap=null prev2W=água prev2T=n prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+! punc ini=simb cap=null simb=null prevW=patinho prevT=n prevCap=min nextW=null nextT=null nextCap=null prev2W=, prev2T=punc prev2Cap=null next2W=null next2T=null next2Cap=null palpite=O

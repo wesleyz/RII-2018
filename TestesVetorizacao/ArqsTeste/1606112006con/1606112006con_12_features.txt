@@ -1,0 +1,6 @@
+Art n ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=?ica nextT=n nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=no next2T=n next2Cap=min palpite=O
+?ica n ini=simb cap=null simb=null prevW=Art prevT=n prevCap=maxmin nextW=no nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=ensino next2T=n next2Cap=min palpite=O
+no n ini=ncap cap=min simb=alpha prevW=?ica prevT=n prevCap=null nextW=ensino nextT=n nextCap=min prev2W=Art prev2T=n prev2Cap=maxmin next2W=fundamental next2T=adj next2Cap=min palpite=O
+ensino n ini=ncap cap=min simb=alpha prevW=no prevT=n prevCap=min nextW=fundamental nextT=adj nextCap=min prev2W=?ica prev2T=n prev2Cap=null next2W=. next2T=punc next2Cap=null palpite=O
+fundamental adj ini=ncap cap=min simb=alpha prevW=ensino prevT=n prevCap=min nextW=. nextT=punc nextCap=null prev2W=no prev2T=n prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=fundamental prevT=adj prevCap=min nextW=null nextT=null nextCap=null prev2W=ensino prev2T=n prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

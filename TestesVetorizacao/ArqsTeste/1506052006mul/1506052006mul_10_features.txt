@@ -1,0 +1,15 @@
+Depois adv ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=, nextT=punc nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=disso next2T=n next2Cap=min palpite=O
+, punc ini=simb cap=null simb=null prevW=Depois prevT=adv prevCap=maxmin nextW=disso nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=, next2T=punc next2Cap=null palpite=O
+disso n ini=ncap cap=min simb=alpha prevW=, prevT=punc prevCap=null nextW=, nextT=punc nextCap=null prev2W=Depois prev2T=adv prev2Cap=maxmin next2W=juntar next2T=v-inf next2Cap=min palpite=O
+, punc ini=simb cap=null simb=null prevW=disso prevT=n prevCap=min nextW=juntar nextT=v-inf nextCap=min prev2W=, prev2T=punc prev2Cap=null next2W=a next2T=art next2Cap=min palpite=O
+juntar v-inf ini=ncap cap=min simb=alpha prevW=, prevT=punc prevCap=null nextW=a nextT=art nextCap=min prev2W=disso prev2T=n prev2Cap=min next2W=fam next2T=n next2Cap=min palpite=O
+a art ini=ncap cap=min simb=alpha prevW=juntar prevT=v-inf prevCap=min nextW=fam nextT=n nextCap=min prev2W=, prev2T=punc prev2Cap=null next2W=?a next2T=n next2Cap=null palpite=O
+fam n ini=ncap cap=min simb=alpha prevW=a prevT=art prevCap=min nextW=?a nextT=n nextCap=null prev2W=juntar prev2T=v-inf prev2Cap=min next2W=e next2T=conj-c next2Cap=min palpite=O
+?a n ini=simb cap=null simb=null prevW=fam prevT=n prevCap=min nextW=e nextT=conj-c nextCap=min prev2W=a prev2T=art prev2Cap=min next2W=celebrar next2T=v-inf next2Cap=min palpite=O
+e conj-c ini=ncap cap=min simb=alpha prevW=?a prevT=n prevCap=null nextW=celebrar nextT=v-inf nextCap=min prev2W=fam prev2T=n prev2Cap=min next2W=?armonia next2T=n next2Cap=null palpite=O
+celebrar v-inf ini=ncap cap=min simb=alpha prevW=e prevT=conj-c prevCap=min nextW=?armonia nextT=n nextCap=null prev2W=?a prev2T=n prev2Cap=null next2W=e next2T=conj-c next2Cap=min palpite=O
+?armonia n ini=simb cap=null simb=null prevW=celebrar prevT=v-inf prevCap=min nextW=e nextT=conj-c nextCap=min prev2W=e prev2T=conj-c prev2Cap=min next2W=ao next2T=prp next2Cap=min palpite=O
+e conj-c ini=ncap cap=min simb=alpha prevW=?armonia prevT=n prevCap=null nextW=ao nextT=prp nextCap=min prev2W=celebrar prev2T=v-inf prev2Cap=min next2W=encontro next2T=n next2Cap=min palpite=O
+ao prp ini=ncap cap=min simb=alpha prevW=e prevT=conj-c prevCap=min nextW=encontro nextT=n nextCap=min prev2W=?armonia prev2T=n prev2Cap=null next2W=. next2T=punc next2Cap=null palpite=O
+encontro n ini=ncap cap=min simb=alpha prevW=ao prevT=prp prevCap=min nextW=. nextT=punc nextCap=null prev2W=e prev2T=conj-c prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=encontro prevT=n prevCap=min nextW=null nextT=null nextCap=null prev2W=ao prev2T=prp prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

@@ -1,0 +1,9 @@
+Os art ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=recursos nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=s next2T=n next2Cap=min palpite=O
+recursos n ini=ncap cap=min simb=alpha prevW=Os prevT=art prevCap=maxmin nextW=s nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=?relacionados next2T=v-pcp next2Cap=null palpite=O
+s n ini=ncap cap=min simb=alpha prevW=recursos prevT=n prevCap=min nextW=?relacionados nextT=v-pcp nextCap=null prev2W=Os prev2T=art prev2Cap=maxmin next2W=?rova next2T=n next2Cap=null palpite=O
+?relacionados v-pcp ini=simb cap=null simb=null prevW=s prevT=n prevCap=min nextW=?rova nextT=n nextCap=null prev2W=recursos prev2T=n prev2Cap=min next2W=de next2T=prp next2Cap=min palpite=O
+?rova n ini=simb cap=null simb=null prevW=?relacionados prevT=v-pcp prevCap=null nextW=de nextT=prp nextCap=min prev2W=s prev2T=n prev2Cap=min next2W=t next2T=n next2Cap=min palpite=O
+de prp ini=ncap cap=min simb=alpha prevW=?rova prevT=n prevCap=null nextW=t nextT=n nextCap=min prev2W=?relacionados prev2T=v-pcp prev2Cap=null next2W=?los next2T=n next2Cap=null palpite=O
+t n ini=ncap cap=min simb=alpha prevW=de prevT=prp prevCap=min nextW=?los nextT=n nextCap=null prev2W=?rova prev2T=n prev2Cap=null next2W=. next2T=punc next2Cap=null palpite=O
+?los n ini=simb cap=null simb=null prevW=t prevT=n prevCap=min nextW=. nextT=punc nextCap=null prev2W=de prev2T=prp prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=?los prevT=n prevCap=null nextW=null nextT=null nextCap=null prev2W=t prev2T=n prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

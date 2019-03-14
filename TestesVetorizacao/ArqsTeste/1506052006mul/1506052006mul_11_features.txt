@@ -1,0 +1,4 @@
+Que conj-s ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=tal nextT=pron-det nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=experimentar next2T=v-inf next2Cap=min palpite=O
+tal pron-det ini=ncap cap=min simb=alpha prevW=Que prevT=conj-s prevCap=maxmin nextW=experimentar nextT=v-inf nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=? next2T=punc next2Cap=null palpite=O
+experimentar v-inf ini=ncap cap=min simb=alpha prevW=tal prevT=pron-det prevCap=min nextW=? nextT=punc nextCap=null prev2W=Que prev2T=conj-s prev2Cap=maxmin next2W=null next2T=null next2Cap=null palpite=O
+? punc ini=simb cap=null simb=null prevW=experimentar prevT=v-inf prevCap=min nextW=null nextT=null nextCap=null prev2W=tal prev2T=pron-det prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

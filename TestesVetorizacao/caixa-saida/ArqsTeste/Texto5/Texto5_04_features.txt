@@ -1,0 +1,10 @@
+Fizeram v-fin ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=um nextT=art nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=grande next2T=adj next2Cap=min palpite=O
+um art ini=ncap cap=min simb=alpha prevW=Fizeram prevT=v-fin prevCap=maxmin nextW=grande nextT=adj nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=bolo next2T=n next2Cap=min palpite=O
+grande adj ini=ncap cap=min simb=alpha prevW=um prevT=art prevCap=min nextW=bolo nextT=n nextCap=min prev2W=Fizeram prev2T=v-fin prev2Cap=maxmin next2W=para next2T=prp next2Cap=min palpite=O
+bolo n ini=ncap cap=min simb=alpha prevW=grande prevT=adj prevCap=min nextW=para nextT=prp nextCap=min prev2W=um prev2T=art prev2Cap=min next2W=que next2T=conj-s next2Cap=min palpite=O
+para prp ini=ncap cap=min simb=alpha prevW=bolo prevT=n prevCap=min nextW=que nextT=conj-s nextCap=min prev2W=grande prev2T=adj prev2Cap=min next2W=chegasse next2T=n next2Cap=min palpite=O
+que conj-s ini=ncap cap=min simb=alpha prevW=para prevT=prp prevCap=min nextW=chegasse nextT=n nextCap=min prev2W=bolo prev2T=n prev2Cap=min next2W=para next2T=prp next2Cap=min palpite=O
+chegasse n ini=ncap cap=min simb=alpha prevW=que prevT=conj-s prevCap=min nextW=para nextT=prp nextCap=min prev2W=para prev2T=prp prev2Cap=min next2W=todos next2T=pron-det next2Cap=min palpite=O
+para prp ini=ncap cap=min simb=alpha prevW=chegasse prevT=n prevCap=min nextW=todos nextT=pron-det nextCap=min prev2W=que prev2T=conj-s prev2Cap=min next2W=. next2T=punc next2Cap=null palpite=O
+todos pron-det ini=ncap cap=min simb=alpha prevW=para prevT=prp prevCap=min nextW=. nextT=punc nextCap=null prev2W=chegasse prev2T=n prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=todos prevT=pron-det prevCap=min nextW=null nextT=null nextCap=null prev2W=para prev2T=prp prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

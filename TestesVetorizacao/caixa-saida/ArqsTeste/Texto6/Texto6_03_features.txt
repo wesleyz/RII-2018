@@ -1,0 +1,16 @@
+O art ini=cap cap=max simb=alpha prevW=null prevT=null prevCap=null nextW=amarelo nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=luminoso next2T=n next2Cap=min palpite=O
+amarelo n ini=ncap cap=min simb=alpha prevW=O prevT=art prevCap=max nextW=luminoso nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=e next2T=conj-c next2Cap=min palpite=O
+luminoso n ini=ncap cap=min simb=alpha prevW=amarelo prevT=n prevCap=min nextW=e nextT=conj-c nextCap=min prev2W=O prev2T=art prev2Cap=max next2W=o next2T=art next2Cap=min palpite=O
+e conj-c ini=ncap cap=min simb=alpha prevW=luminoso prevT=n prevCap=min nextW=o nextT=art nextCap=min prev2W=amarelo prev2T=n prev2Cap=min next2W=azul next2T=adj next2Cap=min palpite=O
+o art ini=ncap cap=min simb=alpha prevW=e prevT=conj-c prevCap=min nextW=azul nextT=adj nextCap=min prev2W=luminoso prev2T=n prev2Cap=min next2W=aéreo next2T=adj next2Cap=min palpite=O
+azul adj ini=ncap cap=min simb=alpha prevW=o prevT=art prevCap=min nextW=aéreo nextT=adj nextCap=min prev2W=e prev2T=conj-c prev2Cap=min next2W=criam next2T=v-fin next2Cap=min palpite=O
+aéreo adj ini=ncap cap=min simb=alpha prevW=azul prevT=adj prevCap=min nextW=criam nextT=v-fin nextCap=min prev2W=o prev2T=art prev2Cap=min next2W=o next2T=art next2Cap=min palpite=O
+criam v-fin ini=ncap cap=min simb=alpha prevW=aéreo prevT=adj prevCap=min nextW=o nextT=art nextCap=min prev2W=azul prev2T=adj prev2Cap=min next2W=equilibrado next2T=v-pcp next2Cap=min palpite=O
+o art ini=ncap cap=min simb=alpha prevW=criam prevT=v-fin prevCap=min nextW=equilibrado nextT=v-pcp nextCap=min prev2W=aéreo prev2T=adj prev2Cap=min next2W=verde next2T=n next2Cap=min palpite=O
+equilibrado v-pcp ini=ncap cap=min simb=alpha prevW=o prevT=art prevCap=min nextW=verde nextT=n nextCap=min prev2W=criam prev2T=v-fin prev2Cap=min next2W=, next2T=punc next2Cap=null palpite=O
+verde n ini=ncap cap=min simb=alpha prevW=equilibrado prevT=v-pcp prevCap=min nextW=, nextT=punc nextCap=null prev2W=o prev2T=art prev2Cap=min next2W=dono next2T=n next2Cap=min palpite=O
+, punc ini=simb cap=null simb=null prevW=verde prevT=n prevCap=min nextW=dono nextT=n nextCap=min prev2W=equilibrado prev2T=v-pcp prev2Cap=min next2W=da next2T=v-pcp next2Cap=min palpite=O
+dono n ini=ncap cap=min simb=alpha prevW=, prevT=punc prevCap=null nextW=da nextT=v-pcp nextCap=min prev2W=verde prev2T=n prev2Cap=min next2W=primavera next2T=n next2Cap=min palpite=O
+da v-pcp ini=ncap cap=min simb=alpha prevW=dono prevT=n prevCap=min nextW=primavera nextT=n nextCap=min prev2W=, prev2T=punc prev2Cap=null next2W=. next2T=punc next2Cap=null palpite=O
+primavera n ini=ncap cap=min simb=alpha prevW=da prevT=v-pcp prevCap=min nextW=. nextT=punc nextCap=null prev2W=dono prev2T=n prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=primavera prevT=n prevCap=min nextW=null nextT=null nextCap=null prev2W=da prev2T=v-pcp prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

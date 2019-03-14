@@ -1,0 +1,10 @@
+Mas conj-c ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=o nextT=art nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=fen next2T=n next2Cap=min palpite=O
+o art ini=ncap cap=min simb=alpha prevW=Mas prevT=conj-c prevCap=maxmin nextW=fen nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=?o next2T=n next2Cap=null palpite=O
+fen n ini=ncap cap=min simb=alpha prevW=o prevT=art prevCap=min nextW=?o nextT=n nextCap=null prev2W=Mas prev2T=conj-c prev2Cap=maxmin next2W=n next2T=n next2Cap=min palpite=O
+?o n ini=simb cap=null simb=null prevW=fen prevT=n prevCap=min nextW=n nextT=n nextCap=min prev2W=o prev2T=art prev2Cap=min next2W=? next2T=punc next2Cap=null palpite=O
+n n ini=ncap cap=min simb=alpha prevW=?o prevT=n prevCap=null nextW=? nextT=punc nextCap=null prev2W=fen prev2T=n prev2Cap=min next2W=?xclusivo next2T=adj next2Cap=null palpite=O
+? punc ini=simb cap=null simb=null prevW=n prevT=n prevCap=min nextW=?xclusivo nextT=adj nextCap=null prev2W=?o prev2T=n prev2Cap=null next2W=da next2T=v-pcp next2Cap=min palpite=O
+?xclusivo adj ini=simb cap=null simb=null prevW=? prevT=punc prevCap=null nextW=da nextT=v-pcp nextCap=min prev2W=n prev2T=n prev2Cap=min next2W=Inglaterra next2T=prop next2Cap=maxmin palpite=O
+da v-pcp ini=ncap cap=min simb=alpha prevW=?xclusivo prevT=adj prevCap=null nextW=Inglaterra nextT=prop nextCap=maxmin prev2W=? prev2T=punc prev2Cap=null next2W=. next2T=punc next2Cap=null palpite=O
+Inglaterra prop ini=cap cap=maxmin simb=alpha prevW=da prevT=v-pcp prevCap=min nextW=. nextT=punc nextCap=null prev2W=?xclusivo prev2T=adj prev2Cap=null next2W=null next2T=null next2Cap=null palpite=I_ORGANIZACAO
+. punc ini=simb cap=null simb=null prevW=Inglaterra prevT=prop prevCap=maxmin nextW=null nextT=null nextCap=null prev2W=da prev2T=v-pcp prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

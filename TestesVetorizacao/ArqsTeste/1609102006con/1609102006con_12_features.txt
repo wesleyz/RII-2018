@@ -1,0 +1,15 @@
+Esse pron-det ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=n nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=? next2T=punc next2Cap=null palpite=O
+n n ini=ncap cap=min simb=alpha prevW=Esse prevT=pron-det prevCap=maxmin nextW=? nextT=punc nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=caiu next2T=v-fin next2Cap=min palpite=O
+? punc ini=simb cap=null simb=null prevW=n prevT=n prevCap=min nextW=caiu nextT=v-fin nextCap=min prev2W=Esse prev2T=pron-det prev2Cap=maxmin next2W=para next2T=prp next2Cap=min palpite=O
+caiu v-fin ini=ncap cap=min simb=alpha prevW=? prevT=punc prevCap=null nextW=para nextT=prp nextCap=min prev2W=n prev2T=n prev2Cap=min next2W=10 next2T=num next2Cap=null palpite=O
+para prp ini=ncap cap=min simb=alpha prevW=caiu prevT=v-fin prevCap=min nextW=10 nextT=num nextCap=null prev2W=? prev2T=punc prev2Cap=null next2W=mil next2T=num next2Cap=min palpite=O
+10 num ini=simb cap=null simb=num prevW=para prevT=prp prevCap=min nextW=mil nextT=num nextCap=min prev2W=caiu prev2T=v-fin prev2Cap=min next2W=em next2T=prp next2Cap=min palpite=O
+mil num ini=ncap cap=min simb=alpha prevW=10 prevT=num prevCap=null nextW=em nextT=prp nextCap=min prev2W=para prev2T=prp prev2Cap=min next2W=2005 next2T=n next2Cap=null palpite=O
+em prp ini=ncap cap=min simb=alpha prevW=mil prevT=num prevCap=min nextW=2005 nextT=n nextCap=null prev2W=10 prev2T=num prev2Cap=null next2W=e next2T=conj-c next2Cap=min palpite=O
+2005 n ini=simb cap=null simb=num prevW=em prevT=prp prevCap=min nextW=e nextT=conj-c nextCap=min prev2W=mil prev2T=num prev2Cap=min next2W=9 next2T=num next2Cap=null palpite=I_TEMPO
+e conj-c ini=ncap cap=min simb=alpha prevW=2005 prevT=n prevCap=null nextW=9 nextT=num nextCap=null prev2W=em prev2T=prp prev2Cap=min next2W=mil next2T=num next2Cap=min palpite=O
+9 num ini=simb cap=null simb=num prevW=e prevT=conj-c prevCap=min nextW=mil nextT=num nextCap=min prev2W=2005 prev2T=n prev2Cap=null next2W=este next2T=pron-det next2Cap=min palpite=O
+mil num ini=ncap cap=min simb=alpha prevW=9 prevT=num prevCap=null nextW=este nextT=pron-det nextCap=min prev2W=e prev2T=conj-c prev2Cap=min next2W=ano next2T=n next2Cap=min palpite=O
+este pron-det ini=ncap cap=min simb=alpha prevW=mil prevT=num prevCap=min nextW=ano nextT=n nextCap=min prev2W=9 prev2T=num prev2Cap=null next2W=. next2T=punc next2Cap=null palpite=O
+ano n ini=ncap cap=min simb=alpha prevW=este prevT=pron-det prevCap=min nextW=. nextT=punc nextCap=null prev2W=mil prev2T=num prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=ano prevT=n prevCap=min nextW=null nextT=null nextCap=null prev2W=este prev2T=pron-det prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

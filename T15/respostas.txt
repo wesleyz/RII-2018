@@ -1,0 +1,87 @@
+Iniciando Clusterizacão
+kMeans
+K: 2
+Total Clusters: 2
+Max iterations: 200
+Selecionando os centroids iniciais
+Calculando os novos clusters!!
+Cluster 0 76
+Cluster 1 74
+Iniciando Clusterizacão
+kMeans
+K: 3
+Total Clusters: 3
+Max iterations: 200
+Selecionando os centroids iniciais
+Calculando os novos clusters!!
+Cluster 0 30
+Cluster 1 61
+Cluster 2 59
+Iniciando Clusterizacão
+kMeans
+K: 4
+Total Clusters: 4
+Max iterations: 200
+Selecionando os centroids iniciais
+Calculando os novos clusters!!
+Cluster 0 43
+Cluster 1 35
+Cluster 2 39
+Cluster 3 33
+
+
+Standard Term Frequency Weights-----------
+Data set density: 21351.8785543
+Average of the density: 0.948972380192
+
+AVG similarity between docs and corresponding centroids (x):  0.977043677861
+AVG similarity between centroids and main centroid:  0.999999631789
+AVG similarity between pairs of cluster centroids (y):  0.49999926363
+Ratio y/x:  0.511747094792
+
+Term Frequency with Iinverse Doc Freq-----
+Data set density: 21528.2691102
+Average of the density: 0.956811960452
+
+AVG similarity between docs and corresponding centroids (x):  0.979123051628
+AVG similarity between centroids and main centroid:  0.999999631789
+AVG similarity between pairs of cluster centroids (y):  0.49999926363
+Ratio y/x:  0.510660292185
+
+
+Standard Term Frequency Weights-----------
+Data set density: 21351.8785543
+Average of the density: 0.948972380192
+
+AVG similarity between docs and corresponding centroids (x):  0.977828023807
+AVG similarity between centroids and main centroid:  0.999991332611
+AVG similarity between pairs of cluster centroids (y):  0.666649332078
+Ratio y/x:  0.681765418711
+
+Term Frequency with Iinverse Doc Freq-----
+Data set density: 21528.2691102
+Average of the density: 0.956811960452
+
+AVG similarity between docs and corresponding centroids (x):  0.979697081158
+AVG similarity between centroids and main centroid:  0.999991332611
+AVG similarity between pairs of cluster centroids (y):  0.666649332078
+Ratio y/x:  0.680464752728
+
+
+Standard Term Frequency Weights-----------
+Data set density: 21351.8785543
+Average of the density: 0.948972380192
+
+AVG similarity between docs and corresponding centroids (x):  0.977108726634
+AVG similarity between centroids and main centroid:  0.99999395908
+AVG similarity between pairs of cluster centroids (y):  0.74998791875
+Ratio y/x:  0.767558305752
+
+Term Frequency with Iinverse Doc Freq-----
+Data set density: 21528.2691102
+Average of the density: 0.956811960452
+
+AVG similarity between docs and corresponding centroids (x):  0.979167423602
+AVG similarity between centroids and main centroid:  0.99999395908
+AVG similarity between pairs of cluster centroids (y):  0.74998791875
+Ratio y/x:  0.765944516405

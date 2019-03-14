@@ -1,0 +1,14 @@
+A art ini=cap cap=max simb=alpha prevW=null prevT=null prevCap=null nextW=Pomba nextT=n nextCap=maxmin prev2W=null prev2T=null prev2Cap=null next2W=e next2T=conj-c next2Cap=min palpite=O
+Pomba n ini=cap cap=maxmin simb=alpha prevW=A prevT=art prevCap=max nextW=e nextT=conj-c nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=o next2T=art next2Cap=min palpite=O
+e conj-c ini=ncap cap=min simb=alpha prevW=Pomba prevT=n prevCap=maxmin nextW=o nextT=art nextCap=min prev2W=A prev2T=art prev2Cap=max next2W=sr. next2T=n next2Cap=null palpite=O
+o art ini=ncap cap=min simb=alpha prevW=e prevT=conj-c prevCap=min nextW=sr. nextT=n nextCap=null prev2W=Pomba prev2T=n prev2Cap=maxmin next2W=Mocho next2T=n next2Cap=maxmin palpite=O
+sr. n ini=ncap cap=null simb=null prevW=o prevT=art prevCap=min nextW=Mocho nextT=n nextCap=maxmin prev2W=e prev2T=conj-c prev2Cap=min next2W=foram next2T=v-fin next2Cap=min palpite=I_PESSOA
+Mocho n ini=cap cap=maxmin simb=alpha prevW=sr. prevT=n prevCap=null nextW=foram nextT=v-fin nextCap=min prev2W=o prev2T=art prev2Cap=min next2W=encarregadas next2T=n next2Cap=min palpite=I_PESSOA
+foram v-fin ini=ncap cap=min simb=alpha prevW=Mocho prevT=n prevCap=maxmin nextW=encarregadas nextT=n nextCap=min prev2W=sr. prev2T=n prev2Cap=null next2W=de next2T=prp next2Cap=min palpite=O
+encarregadas n ini=ncap cap=min simb=alpha prevW=foram prevT=v-fin prevCap=min nextW=de nextT=prp nextCap=min prev2W=Mocho prev2T=n prev2Cap=maxmin next2W=avisar next2T=n next2Cap=min palpite=O
+de prp ini=ncap cap=min simb=alpha prevW=encarregadas prevT=n prevCap=min nextW=avisar nextT=n nextCap=min prev2W=foram prev2T=v-fin prev2Cap=min next2W=toda next2T=pron-det next2Cap=min palpite=O
+avisar n ini=ncap cap=min simb=alpha prevW=de prevT=prp prevCap=min nextW=toda nextT=pron-det nextCap=min prev2W=encarregadas prev2T=n prev2Cap=min next2W=a next2T=art next2Cap=min palpite=O
+toda pron-det ini=ncap cap=min simb=alpha prevW=avisar prevT=n prevCap=min nextW=a nextT=art nextCap=min prev2W=de prev2T=prp prev2Cap=min next2W=selva next2T=n next2Cap=min palpite=O
+a art ini=ncap cap=min simb=alpha prevW=toda prevT=pron-det prevCap=min nextW=selva nextT=n nextCap=min prev2W=avisar prev2T=n prev2Cap=min next2W=. next2T=punc next2Cap=null palpite=O
+selva n ini=ncap cap=min simb=alpha prevW=a prevT=art prevCap=min nextW=. nextT=punc nextCap=null prev2W=toda prev2T=pron-det prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=selva prevT=n prevCap=min nextW=null nextT=null nextCap=null prev2W=a prev2T=art prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

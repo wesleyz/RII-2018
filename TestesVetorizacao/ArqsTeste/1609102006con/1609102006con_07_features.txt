@@ -1,0 +1,17 @@
+Desse n ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=total nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=, next2T=punc next2Cap=null palpite=O
+total n ini=ncap cap=min simb=alpha prevW=Desse prevT=n prevCap=maxmin nextW=, nextT=punc nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=25 next2T=num next2Cap=null palpite=O
+, punc ini=simb cap=null simb=null prevW=total prevT=n prevCap=min nextW=25 nextT=num nextCap=null prev2W=Desse prev2T=n prev2Cap=maxmin next2W=mil next2T=num next2Cap=min palpite=O
+25 num ini=simb cap=null simb=num prevW=, prevT=punc prevCap=null nextW=mil nextT=num nextCap=min prev2W=total prev2T=n prev2Cap=min next2W=candidatos next2T=n next2Cap=min palpite=O
+mil num ini=ncap cap=min simb=alpha prevW=25 prevT=num prevCap=null nextW=candidatos nextT=n nextCap=min prev2W=, prev2T=punc prev2Cap=null next2W=estavam next2T=v-fin next2Cap=min palpite=O
+candidatos n ini=ncap cap=min simb=alpha prevW=mil prevT=num prevCap=min nextW=estavam nextT=v-fin nextCap=min prev2W=25 prev2T=num prev2Cap=null next2W=habilitados next2T=n next2Cap=min palpite=O
+estavam v-fin ini=ncap cap=min simb=alpha prevW=candidatos prevT=n prevCap=min nextW=habilitados nextT=n nextCap=min prev2W=mil prev2T=num prev2Cap=min next2W=no next2T=n next2Cap=min palpite=O
+habilitados n ini=ncap cap=min simb=alpha prevW=estavam prevT=v-fin prevCap=min nextW=no nextT=n nextCap=min prev2W=candidatos prev2T=n prev2Cap=min next2W=processo next2T=n next2Cap=min palpite=O
+no n ini=ncap cap=min simb=alpha prevW=habilitados prevT=n prevCap=min nextW=processo nextT=n nextCap=min prev2W=estavam prev2T=v-fin prev2Cap=min next2W=e next2T=conj-c next2Cap=min palpite=O
+processo n ini=ncap cap=min simb=alpha prevW=no prevT=n prevCap=min nextW=e nextT=conj-c nextCap=min prev2W=habilitados prev2T=n prev2Cap=min next2W=a next2T=art next2Cap=min palpite=O
+e conj-c ini=ncap cap=min simb=alpha prevW=processo prevT=n prevCap=min nextW=a nextT=art nextCap=min prev2W=no prev2T=n prev2Cap=min next2W=Sedu next2T=prop next2Cap=maxmin palpite=O
+a art ini=ncap cap=min simb=alpha prevW=e prevT=conj-c prevCap=min nextW=Sedu nextT=prop nextCap=maxmin prev2W=processo prev2T=n prev2Cap=min next2W=selecionou next2T=v-fin next2Cap=min palpite=O
+Sedu prop ini=cap cap=maxmin simb=alpha prevW=a prevT=art prevCap=min nextW=selecionou nextT=v-fin nextCap=min prev2W=e prev2T=conj-c prev2Cap=min next2W=15 next2T=num next2Cap=null palpite=O
+selecionou v-fin ini=ncap cap=min simb=alpha prevW=Sedu prevT=prop prevCap=maxmin nextW=15 nextT=num nextCap=null prev2W=a prev2T=art prev2Cap=min next2W=mil next2T=num next2Cap=min palpite=O
+15 num ini=simb cap=null simb=num prevW=selecionou prevT=v-fin prevCap=min nextW=mil nextT=num nextCap=min prev2W=Sedu prev2T=prop prev2Cap=maxmin next2W=. next2T=punc next2Cap=null palpite=O
+mil num ini=ncap cap=min simb=alpha prevW=15 prevT=num prevCap=null nextW=. nextT=punc nextCap=null prev2W=selecionou prev2T=v-fin prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=mil prevT=num prevCap=min nextW=null nextT=null nextCap=null prev2W=15 prev2T=num prev2Cap=null next2W=null next2T=null next2Cap=null palpite=O

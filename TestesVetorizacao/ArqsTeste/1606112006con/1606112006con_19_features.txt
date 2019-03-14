@@ -1,0 +1,3 @@
+ICO prop ini=cap cap=max simb=alpha prevW=null prevT=null prevCap=null nextW=CIRURGI nextT=n nextCap=max prev2W=null prev2T=null prev2Cap=null next2W=? next2T=punc next2Cap=null palpite=O
+CIRURGI n ini=cap cap=max simb=alpha prevW=ICO prevT=prop prevCap=max nextW=? nextT=punc nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=null next2T=null next2Cap=null palpite=O
+? punc ini=simb cap=null simb=null prevW=CIRURGI prevT=n prevCap=max nextW=null nextT=null nextCap=null prev2W=ICO prev2T=prop prev2Cap=max next2W=null next2T=null next2Cap=null palpite=O

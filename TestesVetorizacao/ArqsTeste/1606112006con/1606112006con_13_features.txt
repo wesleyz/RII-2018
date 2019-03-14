@@ -1,0 +1,17 @@
+As art ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=inscri nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=?s next2T=n next2Cap=null palpite=O
+inscri n ini=ncap cap=min simb=alpha prevW=As prevT=art prevCap=maxmin nextW=?s nextT=n nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=podem next2T=v-fin next2Cap=min palpite=O
+?s n ini=simb cap=null simb=null prevW=inscri prevT=n prevCap=min nextW=podem nextT=v-fin nextCap=min prev2W=As prev2T=art prev2Cap=maxmin next2W=ser next2T=v-inf next2Cap=min palpite=O
+podem v-fin ini=ncap cap=min simb=alpha prevW=?s prevT=n prevCap=null nextW=ser nextT=v-inf nextCap=min prev2W=inscri prev2T=n prev2Cap=min next2W=feitas next2T=v-pcp next2Cap=min palpite=O
+ser v-inf ini=ncap cap=min simb=alpha prevW=podem prevT=v-fin prevCap=min nextW=feitas nextT=v-pcp nextCap=min prev2W=?s prev2T=n prev2Cap=null next2W=via next2T=n next2Cap=min palpite=O
+feitas v-pcp ini=ncap cap=min simb=alpha prevW=ser prevT=v-inf prevCap=min nextW=via nextT=n nextCap=min prev2W=podem prev2T=v-fin prev2Cap=min next2W=internet next2T=n next2Cap=min palpite=O
+via n ini=ncap cap=min simb=alpha prevW=feitas prevT=v-pcp prevCap=min nextW=internet nextT=n nextCap=min prev2W=ser prev2T=v-inf prev2Cap=min next2W=( next2T=punc next2Cap=null palpite=O
+internet n ini=ncap cap=min simb=alpha prevW=via prevT=n prevCap=min nextW=( nextT=punc nextCap=null prev2W=feitas prev2T=v-pcp prev2Cap=min next2W=www.fjpf.org.br next2T=n next2Cap=null palpite=O
+( punc ini=simb cap=null simb=null prevW=internet prevT=n prevCap=min nextW=www.fjpf.org.br nextT=n nextCap=null prev2W=via prev2T=n prev2Cap=min next2W=) next2T=punc next2Cap=null palpite=O
+www.fjpf.org.br n ini=ncap cap=null simb=null prevW=( prevT=punc prevCap=null nextW=) nextT=punc nextCap=null prev2W=internet prev2T=n prev2Cap=min next2W=at next2T=n next2Cap=min palpite=O
+) punc ini=simb cap=null simb=null prevW=www.fjpf.org.br prevT=n prevCap=null nextW=at nextT=n nextCap=min prev2W=( prev2T=punc prev2Cap=null next2W=? next2T=punc next2Cap=null palpite=O
+at n ini=ncap cap=min simb=alpha prevW=) prevT=punc prevCap=null nextW=? nextT=punc nextCap=null prev2W=www.fjpf.org.br prev2T=n prev2Cap=null next2W=pr next2T=n next2Cap=min palpite=O
+? punc ini=simb cap=null simb=null prevW=at prevT=n prevCap=min nextW=pr nextT=n nextCap=min prev2W=) prev2T=punc prev2Cap=null next2W=?o next2T=n next2Cap=null palpite=O
+pr n ini=ncap cap=min simb=alpha prevW=? prevT=punc prevCap=null nextW=?o nextT=n nextCap=null prev2W=at prev2T=n prev2Cap=min next2W=domingo next2T=n next2Cap=min palpite=O
+?o n ini=simb cap=null simb=null prevW=pr prevT=n prevCap=min nextW=domingo nextT=n nextCap=min prev2W=? prev2T=punc prev2Cap=null next2W=. next2T=punc next2Cap=null palpite=O
+domingo n ini=ncap cap=min simb=alpha prevW=?o prevT=n prevCap=null nextW=. nextT=punc nextCap=null prev2W=pr prev2T=n prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=domingo prevT=n prevCap=min nextW=null nextT=null nextCap=null prev2W=?o prev2T=n prev2Cap=null next2W=null next2T=null next2Cap=null palpite=O

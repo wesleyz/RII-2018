@@ -1,0 +1,4 @@
+Regras n ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=b nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=?cas next2T=n next2Cap=null palpite=O
+b n ini=ncap cap=min simb=alpha prevW=Regras prevT=n prevCap=maxmin nextW=?cas nextT=n nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=? next2T=punc next2Cap=null palpite=O
+?cas n ini=simb cap=null simb=null prevW=b prevT=n prevCap=min nextW=? nextT=punc nextCap=null prev2W=Regras prev2T=n prev2Cap=maxmin next2W=null next2T=null next2Cap=null palpite=O
+? punc ini=simb cap=null simb=null prevW=?cas prevT=n prevCap=null nextW=null nextT=null nextCap=null prev2W=b prev2T=n prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

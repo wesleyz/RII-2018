@@ -1,0 +1,14 @@
+O art ini=cap cap=max simb=alpha prevW=null prevT=null prevCap=null nextW=recenseador nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=, next2T=punc next2Cap=null palpite=O
+recenseador n ini=ncap cap=min simb=alpha prevW=O prevT=art prevCap=max nextW=, nextT=punc nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=por next2T=prp next2Cap=min palpite=O
+, punc ini=simb cap=null simb=null prevW=recenseador prevT=n prevCap=min nextW=por nextT=prp nextCap=min prev2W=O prev2T=art prev2Cap=max next2W=sua next2T=pron-det next2Cap=min palpite=O
+por prp ini=ncap cap=min simb=alpha prevW=, prevT=punc prevCap=null nextW=sua nextT=pron-det nextCap=min prev2W=recenseador prev2T=n prev2Cap=min next2W=vez next2T=n next2Cap=min palpite=O
+sua pron-det ini=ncap cap=min simb=alpha prevW=por prevT=prp prevCap=min nextW=vez nextT=n nextCap=min prev2W=, prev2T=punc prev2Cap=null next2W=, next2T=punc next2Cap=null palpite=O
+vez n ini=ncap cap=min simb=alpha prevW=sua prevT=pron-det prevCap=min nextW=, nextT=punc nextCap=null prev2W=por prev2T=prp prev2Cap=min next2W=deve next2T=v-fin next2Cap=min palpite=O
+, punc ini=simb cap=null simb=null prevW=vez prevT=n prevCap=min nextW=deve nextT=v-fin nextCap=min prev2W=sua prev2T=pron-det prev2Cap=min next2W=ter next2T=v-inf next2Cap=min palpite=O
+deve v-fin ini=ncap cap=min simb=alpha prevW=, prevT=punc prevCap=null nextW=ter nextT=v-inf nextCap=min prev2W=vez prev2T=n prev2Cap=min next2W=o next2T=art next2Cap=min palpite=O
+ter v-inf ini=ncap cap=min simb=alpha prevW=deve prevT=v-fin prevCap=min nextW=o nextT=art nextCap=min prev2W=, prev2T=punc prev2Cap=null next2W=ensino next2T=n next2Cap=min palpite=O
+o art ini=ncap cap=min simb=alpha prevW=ter prevT=v-inf prevCap=min nextW=ensino nextT=n nextCap=min prev2W=deve prev2T=v-fin prev2Cap=min next2W=fundamental next2T=adj next2Cap=min palpite=O
+ensino n ini=ncap cap=min simb=alpha prevW=o prevT=art prevCap=min nextW=fundamental nextT=adj nextCap=min prev2W=ter prev2T=v-inf prev2Cap=min next2W=completo next2T=n next2Cap=min palpite=O
+fundamental adj ini=ncap cap=min simb=alpha prevW=ensino prevT=n prevCap=min nextW=completo nextT=n nextCap=min prev2W=o prev2T=art prev2Cap=min next2W=. next2T=punc next2Cap=null palpite=O
+completo n ini=ncap cap=min simb=alpha prevW=fundamental prevT=adj prevCap=min nextW=. nextT=punc nextCap=null prev2W=ensino prev2T=n prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=completo prevT=n prevCap=min nextW=null nextT=null nextCap=null prev2W=fundamental prev2T=adj prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

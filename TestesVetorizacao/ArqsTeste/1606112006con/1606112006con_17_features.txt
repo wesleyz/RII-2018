@@ -1,0 +1,11 @@
+ICO prop ini=cap cap=max simb=alpha prevW=null prevT=null prevCap=null nextW=ACUPUNTURISTA nextT=n nextCap=max prev2W=null prev2T=null prev2Cap=null next2W=Luciene next2T=prop next2Cap=maxmin palpite=O
+ACUPUNTURISTA n ini=cap cap=max simb=alpha prevW=ICO prevT=prop prevCap=max nextW=Luciene nextT=prop nextCap=maxmin prev2W=null prev2T=null prev2Cap=null next2W=Santos next2T=n next2Cap=maxmin palpite=O
+Luciene prop ini=cap cap=maxmin simb=alpha prevW=ACUPUNTURISTA prevT=n prevCap=max nextW=Santos nextT=n nextCap=maxmin prev2W=ICO prev2T=prop prev2Cap=max next2W=Costa next2T=prop next2Cap=maxmin palpite=I_PESSOA
+Santos n ini=cap cap=maxmin simb=alpha prevW=Luciene prevT=prop prevCap=maxmin nextW=Costa nextT=prop nextCap=maxmin prev2W=ACUPUNTURISTA prev2T=n prev2Cap=max next2W=2,0 next2T=num next2Cap=null palpite=I_PESSOA
+Costa prop ini=cap cap=maxmin simb=alpha prevW=Santos prevT=n prevCap=maxmin nextW=2,0 nextT=num nextCap=null prev2W=Luciene prev2T=prop prev2Cap=maxmin next2W=5,0 next2T=num next2Cap=null palpite=I_PESSOA
+2,0 num ini=simb cap=null simb=null prevW=Costa prevT=prop prevCap=maxmin nextW=5,0 nextT=num nextCap=null prev2W=Santos prev2T=n prev2Cap=maxmin next2W=7,0 next2T=num next2Cap=null palpite=O
+5,0 num ini=simb cap=null simb=null prevW=2,0 prevT=num prevCap=null nextW=7,0 nextT=num nextCap=null prev2W=Costa prev2T=prop prev2Cap=maxmin next2W=n next2T=n next2Cap=min palpite=O
+7,0 num ini=simb cap=null simb=null prevW=5,0 prevT=num prevCap=null nextW=n nextT=n nextCap=min prev2W=2,0 prev2T=num prev2Cap=null next2W=M next2T=prop next2Cap=max palpite=O
+n n ini=ncap cap=min simb=alpha prevW=7,0 prevT=num prevCap=null nextW=M nextT=prop nextCap=max prev2W=5,0 prev2T=num prev2Cap=null next2W=? next2T=punc next2Cap=null palpite=O
+M prop ini=cap cap=max simb=alpha prevW=n prevT=n prevCap=min nextW=? nextT=punc nextCap=null prev2W=7,0 prev2T=num prev2Cap=null next2W=null next2T=null next2Cap=null palpite=O
+? punc ini=simb cap=null simb=null prevW=M prevT=prop prevCap=max nextW=null nextT=null nextCap=null prev2W=n prev2T=n prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

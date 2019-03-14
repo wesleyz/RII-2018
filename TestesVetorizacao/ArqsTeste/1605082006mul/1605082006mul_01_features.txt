@@ -1,0 +1,9 @@
+A art ini=cap cap=max simb=alpha prevW=null prevT=null prevCap=null nextW=ordem nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=?usar next2T=v-inf next2Cap=null palpite=O
+ordem n ini=ncap cap=min simb=alpha prevW=A prevT=art prevCap=max nextW=?usar nextT=v-inf nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=nas next2T=n next2Cap=min palpite=O
+?usar v-inf ini=simb cap=null simb=null prevW=ordem prevT=n prevCap=min nextW=nas nextT=n nextCap=min prev2W=A prev2T=art prev2Cap=max next2W=cores next2T=n next2Cap=min palpite=O
+nas n ini=ncap cap=min simb=alpha prevW=?usar prevT=v-inf prevCap=null nextW=cores nextT=n nextCap=min prev2W=ordem prev2T=n prev2Cap=min next2W=e next2T=conj-c next2Cap=min palpite=O
+cores n ini=ncap cap=min simb=alpha prevW=nas prevT=n prevCap=min nextW=e nextT=conj-c nextCap=min prev2W=?usar prev2T=v-inf prev2Cap=null next2W=no next2T=n next2Cap=min palpite=O
+e conj-c ini=ncap cap=min simb=alpha prevW=cores prevT=n prevCap=min nextW=no nextT=n nextCap=min prev2W=nas prev2T=n prev2Cap=min next2W=brilho next2T=n next2Cap=min palpite=O
+no n ini=ncap cap=min simb=alpha prevW=e prevT=conj-c prevCap=min nextW=brilho nextT=n nextCap=min prev2W=cores prev2T=n prev2Cap=min next2W=! next2T=punc next2Cap=null palpite=O
+brilho n ini=ncap cap=min simb=alpha prevW=no prevT=n prevCap=min nextW=! nextT=punc nextCap=null prev2W=e prev2T=conj-c prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+! punc ini=simb cap=null simb=null prevW=brilho prevT=n prevCap=min nextW=null nextT=null nextCap=null prev2W=no prev2T=n prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

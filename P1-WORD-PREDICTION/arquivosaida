@@ -1,0 +1,36 @@
+##############################################
+Texto de Treino: I like photograpy I like science I love math 
+
+Frase teste:.................. I
+Palavra predita:..............[like]
+
+Frase teste:.................. I like
+Palavra predita:..............[photograpy]
+
+Frase teste:.................. science I love
+Palavra predita:..............[math]
+
+##############################################
+Texto de Treino: ser ou não ser eis a questão 
+
+Frase teste:.................. ser
+Palavra predita:..............[ou]
+
+Frase teste:.................. ser eis
+Palavra predita:..............[a]
+
+Frase teste:.................. ser eis a
+Palavra predita:..............[questão]
+
+##############################################
+Texto de Treino: O desenvolvimento do raciocínio logico é uma importante área da construção de um pensamento crítico sobre fatos e relações que percebemos no mundo este cenário de aprendizado tem se tornado desafiador para professores 
+
+Frase teste:.................. este
+Palavra predita:..............[cenário]
+
+Frase teste:.................. tem se
+Palavra predita:..............[tornado]
+
+Frase teste:.................. sobre os fatos e
+Palavra predita:..............[relações]
+

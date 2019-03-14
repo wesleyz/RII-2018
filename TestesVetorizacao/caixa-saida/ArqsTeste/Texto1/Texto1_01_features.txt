@@ -1,0 +1,4 @@
+Por prp ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=que nextT=conj-s nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=seria next2T=v-fin next2Cap=min palpite=O
+que conj-s ini=ncap cap=min simb=alpha prevW=Por prevT=prp prevCap=maxmin nextW=seria nextT=v-fin nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=?... next2T=punc next2Cap=null palpite=O
+seria v-fin ini=ncap cap=min simb=alpha prevW=que prevT=conj-s prevCap=min nextW=?... nextT=punc nextCap=null prev2W=Por prev2T=prp prev2Cap=maxmin next2W=null next2T=null next2Cap=null palpite=O
+?... punc ini=simb cap=null simb=null prevW=seria prevT=v-fin prevCap=min nextW=null nextT=null nextCap=null prev2W=que prev2T=conj-s prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

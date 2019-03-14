@@ -1,0 +1,17 @@
+Tamb prop ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=? nextT=punc nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=?reciso next2T=adj next2Cap=null palpite=O
+? punc ini=simb cap=null simb=null prevW=Tamb prevT=prop prevCap=maxmin nextW=?reciso nextT=adj nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=preencher next2T=n next2Cap=min palpite=O
+?reciso adj ini=simb cap=null simb=null prevW=? prevT=punc prevCap=null nextW=preencher nextT=n nextCap=min prev2W=Tamb prev2T=prop prev2Cap=maxmin next2W=o next2T=art next2Cap=min palpite=O
+preencher n ini=ncap cap=min simb=alpha prevW=?reciso prevT=adj prevCap=null nextW=o nextT=art nextCap=min prev2W=? prev2T=punc prev2Cap=null next2W=formul next2T=n next2Cap=min palpite=O
+o art ini=ncap cap=min simb=alpha prevW=preencher prevT=n prevCap=min nextW=formul nextT=n nextCap=min prev2W=?reciso prev2T=adj prev2Cap=null next2W=?o next2T=n next2Cap=null palpite=O
+formul n ini=ncap cap=min simb=alpha prevW=o prevT=art prevCap=min nextW=?o nextT=n nextCap=null prev2W=preencher prev2T=n prev2Cap=min next2W=de next2T=prp next2Cap=min palpite=O
+?o n ini=simb cap=null simb=null prevW=formul prevT=n prevCap=min nextW=de nextT=prp nextCap=min prev2W=o prev2T=art prev2Cap=min next2W=requerimento next2T=n next2Cap=min palpite=O
+de prp ini=ncap cap=min simb=alpha prevW=?o prevT=n prevCap=null nextW=requerimento nextT=n nextCap=min prev2W=formul prev2T=n prev2Cap=min next2W=, next2T=punc next2Cap=null palpite=O
+requerimento n ini=ncap cap=min simb=alpha prevW=de prevT=prp prevCap=min nextW=, nextT=punc nextCap=null prev2W=?o prev2T=n prev2Cap=null next2W=dispon next2T=n next2Cap=min palpite=O
+, punc ini=simb cap=null simb=null prevW=requerimento prevT=n prevCap=min nextW=dispon nextT=n nextCap=min prev2W=de prev2T=prp prev2Cap=min next2W=?l next2T=n next2Cap=null palpite=O
+dispon n ini=ncap cap=min simb=alpha prevW=, prevT=punc prevCap=null nextW=?l nextT=n nextCap=null prev2W=requerimento prev2T=n prev2Cap=min next2W=no next2T=n next2Cap=min palpite=O
+?l n ini=simb cap=null simb=null prevW=dispon prevT=n prevCap=min nextW=no nextT=n nextCap=min prev2W=, prev2T=punc prev2Cap=null next2W=endere next2T=n next2Cap=min palpite=O
+no n ini=ncap cap=min simb=alpha prevW=?l prevT=n prevCap=null nextW=endere nextT=n nextCap=min prev2W=dispon prev2T=n prev2Cap=min next2W=?eletr next2T=n next2Cap=null palpite=O
+endere n ini=ncap cap=min simb=alpha prevW=no prevT=n prevCap=min nextW=?eletr nextT=n nextCap=null prev2W=?l prev2T=n prev2Cap=null next2W=?o next2T=n next2Cap=null palpite=O
+?eletr n ini=simb cap=null simb=null prevW=endere prevT=n prevCap=min nextW=?o nextT=n nextCap=null prev2W=no prev2T=n prev2Cap=min next2W=. next2T=punc next2Cap=null palpite=O
+?o n ini=simb cap=null simb=null prevW=?eletr prevT=n prevCap=null nextW=. nextT=punc nextCap=null prev2W=endere prev2T=n prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=?o prevT=n prevCap=null nextW=null nextT=null nextCap=null prev2W=?eletr prev2T=n prev2Cap=null next2W=null next2T=null next2Cap=null palpite=O

@@ -1,0 +1,13 @@
+J prop ini=cap cap=max simb=alpha prevW=null prevT=null prevCap=null nextW=?s nextT=n nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=inscri next2T=n next2Cap=min palpite=O
+?s n ini=simb cap=null simb=null prevW=J prevT=prop prevCap=max nextW=inscri nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=?s next2T=n next2Cap=null palpite=O
+inscri n ini=ncap cap=min simb=alpha prevW=?s prevT=n prevCap=null nextW=?s nextT=n nextCap=null prev2W=J prev2T=prop prev2Cap=max next2W=presenciais next2T=n next2Cap=min palpite=O
+?s n ini=simb cap=null simb=null prevW=inscri prevT=n prevCap=min nextW=presenciais nextT=n nextCap=min prev2W=?s prev2T=n prev2Cap=null next2W=podem next2T=v-fin next2Cap=min palpite=O
+presenciais n ini=ncap cap=min simb=alpha prevW=?s prevT=n prevCap=null nextW=podem nextT=v-fin nextCap=min prev2W=inscri prev2T=n prev2Cap=min next2W=ser next2T=v-inf next2Cap=min palpite=O
+podem v-fin ini=ncap cap=min simb=alpha prevW=presenciais prevT=n prevCap=min nextW=ser nextT=v-inf nextCap=min prev2W=?s prev2T=n prev2Cap=null next2W=realizadas next2T=n next2Cap=min palpite=O
+ser v-inf ini=ncap cap=min simb=alpha prevW=podem prevT=v-fin prevCap=min nextW=realizadas nextT=n nextCap=min prev2W=presenciais prev2T=n prev2Cap=min next2W=no next2T=n next2Cap=min palpite=O
+realizadas n ini=ncap cap=min simb=alpha prevW=ser prevT=v-inf prevCap=min nextW=no nextT=n nextCap=min prev2W=podem prev2T=v-fin prev2Cap=min next2W=Centro next2T=n next2Cap=maxmin palpite=O
+no n ini=ncap cap=min simb=alpha prevW=realizadas prevT=n prevCap=min nextW=Centro nextT=n nextCap=maxmin prev2W=ser prev2T=v-inf prev2Cap=min next2W=de next2T=prp next2Cap=min palpite=O
+Centro n ini=cap cap=maxmin simb=alpha prevW=no prevT=n prevCap=min nextW=de nextT=prp nextCap=min prev2W=realizadas prev2T=n prev2Cap=min next2W=Forma next2T=n next2Cap=maxmin palpite=I_LOCAL
+de prp ini=ncap cap=min simb=alpha prevW=Centro prevT=n prevCap=maxmin nextW=Forma nextT=n nextCap=maxmin prev2W=no prev2T=n prev2Cap=min next2W=? next2T=punc next2Cap=null palpite=I_LOCAL
+Forma n ini=cap cap=maxmin simb=alpha prevW=de prevT=prp prevCap=min nextW=? nextT=punc nextCap=null prev2W=Centro prev2T=n prev2Cap=maxmin next2W=null next2T=null next2Cap=null palpite=I_LOCAL
+? punc ini=simb cap=null simb=null prevW=Forma prevT=n prevCap=maxmin nextW=null nextT=null nextCap=null prev2W=de prev2T=prp prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

@@ -1,0 +1,16 @@
+Reuniram-se n ini=cap cap=null simb=null prevW=null prevT=null prevCap=null nextW=para nextT=prp nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=decidir next2T=v-inf next2Cap=min palpite=O
+para prp ini=ncap cap=min simb=alpha prevW=Reuniram-se prevT=n prevCap=null nextW=decidir nextT=v-inf nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=qual next2T=pron-det next2Cap=min palpite=O
+decidir v-inf ini=ncap cap=min simb=alpha prevW=para prevT=prp prevCap=min nextW=qual nextT=pron-det nextCap=min prev2W=Reuniram-se prev2T=n prev2Cap=null next2W=deles next2T=n next2Cap=min palpite=O
+qual pron-det ini=ncap cap=min simb=alpha prevW=decidir prevT=v-inf prevCap=min nextW=deles nextT=n nextCap=min prev2W=para prev2T=prp prev2Cap=min next2W=era next2T=v-fin next2Cap=min palpite=O
+deles n ini=ncap cap=min simb=alpha prevW=qual prevT=pron-det prevCap=min nextW=era nextT=v-fin nextCap=min prev2W=decidir prev2T=v-inf prev2Cap=min next2W=o next2T=art next2Cap=min palpite=O
+era v-fin ini=ncap cap=min simb=alpha prevW=deles prevT=n prevCap=min nextW=o nextT=art nextCap=min prev2W=qual prev2T=pron-det prev2Cap=min next2W=mais next2T=adv next2Cap=min palpite=O
+o art ini=ncap cap=min simb=alpha prevW=era prevT=v-fin prevCap=min nextW=mais nextT=adv nextCap=min prev2W=deles prev2T=n prev2Cap=min next2W=saudável next2T=adj next2Cap=min palpite=O
+mais adv ini=ncap cap=min simb=alpha prevW=o prevT=art prevCap=min nextW=saudável nextT=adj nextCap=min prev2W=era prev2T=v-fin prev2Cap=min next2W=, next2T=punc next2Cap=null palpite=O
+saudável adj ini=ncap cap=min simb=alpha prevW=mais prevT=adv prevCap=min nextW=, nextT=punc nextCap=null prev2W=o prev2T=art prev2Cap=min next2W=para next2T=prp next2Cap=min palpite=O
+, punc ini=simb cap=null simb=null prevW=saudável prevT=adj prevCap=min nextW=para nextT=prp nextCap=min prev2W=mais prev2T=adv prev2Cap=min next2W=fazer next2T=v-inf next2Cap=min palpite=O
+para prp ini=ncap cap=min simb=alpha prevW=, prevT=punc prevCap=null nextW=fazer nextT=v-inf nextCap=min prev2W=saudável prev2T=adj prev2Cap=min next2W=crescer next2T=v-inf next2Cap=min palpite=O
+fazer v-inf ini=ncap cap=min simb=alpha prevW=para prevT=prp prevCap=min nextW=crescer nextT=v-inf nextCap=min prev2W=, prev2T=punc prev2Cap=null next2W=as next2T=art next2Cap=min palpite=O
+crescer v-inf ini=ncap cap=min simb=alpha prevW=fazer prevT=v-inf prevCap=min nextW=as nextT=art nextCap=min prev2W=para prev2T=prp prev2Cap=min next2W=crianças next2T=n next2Cap=min palpite=O
+as art ini=ncap cap=min simb=alpha prevW=crescer prevT=v-inf prevCap=min nextW=crianças nextT=n nextCap=min prev2W=fazer prev2T=v-inf prev2Cap=min next2W=. next2T=punc next2Cap=null palpite=O
+crianças n ini=ncap cap=min simb=alpha prevW=as prevT=art prevCap=min nextW=. nextT=punc nextCap=null prev2W=crescer prev2T=v-inf prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=crianças prevT=n prevCap=min nextW=null nextT=null nextCap=null prev2W=as prev2T=art prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

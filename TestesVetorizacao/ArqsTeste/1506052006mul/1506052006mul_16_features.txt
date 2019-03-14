@@ -1,0 +1,13 @@
+Em prp ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=jantares nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=formais next2T=n next2Cap=min palpite=O
+jantares n ini=ncap cap=min simb=alpha prevW=Em prevT=prp prevCap=maxmin nextW=formais nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=, next2T=punc next2Cap=null palpite=O
+formais n ini=ncap cap=min simb=alpha prevW=jantares prevT=n prevCap=min nextW=, nextT=punc nextCap=null prev2W=Em prev2T=prp prev2Cap=maxmin next2W=apenas next2T=adv next2Cap=min palpite=O
+, punc ini=simb cap=null simb=null prevW=formais prevT=n prevCap=min nextW=apenas nextT=adv nextCap=min prev2W=jantares prev2T=n prev2Cap=min next2W=os next2T=art next2Cap=min palpite=O
+apenas adv ini=ncap cap=min simb=alpha prevW=, prevT=punc prevCap=null nextW=os nextT=art nextCap=min prev2W=formais prev2T=n prev2Cap=min next2W=punhos next2T=n next2Cap=min palpite=O
+os art ini=ncap cap=min simb=alpha prevW=apenas prevT=adv prevCap=min nextW=punhos nextT=n nextCap=min prev2W=, prev2T=punc prev2Cap=null next2W=podem next2T=v-fin next2Cap=min palpite=O
+punhos n ini=ncap cap=min simb=alpha prevW=os prevT=art prevCap=min nextW=podem nextT=v-fin nextCap=min prev2W=apenas prev2T=adv prev2Cap=min next2W=apoiar-se next2T=n next2Cap=null palpite=O
+podem v-fin ini=ncap cap=min simb=alpha prevW=punhos prevT=n prevCap=min nextW=apoiar-se nextT=n nextCap=null prev2W=os prev2T=art prev2Cap=min next2W=sobre next2T=prp next2Cap=min palpite=O
+apoiar-se n ini=ncap cap=null simb=null prevW=podem prevT=v-fin prevCap=min nextW=sobre nextT=prp nextCap=min prev2W=punhos prev2T=n prev2Cap=min next2W=a next2T=art next2Cap=min palpite=O
+sobre prp ini=ncap cap=min simb=alpha prevW=apoiar-se prevT=n prevCap=null nextW=a nextT=art nextCap=min prev2W=podem prev2T=v-fin prev2Cap=min next2W=mesa next2T=n next2Cap=min palpite=O
+a art ini=ncap cap=min simb=alpha prevW=sobre prevT=prp prevCap=min nextW=mesa nextT=n nextCap=min prev2W=apoiar-se prev2T=n prev2Cap=null next2W=. next2T=punc next2Cap=null palpite=O
+mesa n ini=ncap cap=min simb=alpha prevW=a prevT=art prevCap=min nextW=. nextT=punc nextCap=null prev2W=sobre prev2T=prp prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=mesa prevT=n prevCap=min nextW=null nextT=null nextCap=null prev2W=a prev2T=art prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

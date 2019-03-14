@@ -1,0 +1,14 @@
+Conforme adv ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=as nextT=art nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=regras next2T=n next2Cap=min palpite=O
+as art ini=ncap cap=min simb=alpha prevW=Conforme prevT=adv prevCap=maxmin nextW=regras nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=da next2T=v-pcp next2Cap=min palpite=O
+regras n ini=ncap cap=min simb=alpha prevW=as prevT=art prevCap=min nextW=da nextT=v-pcp nextCap=min prev2W=Conforme prev2T=adv prev2Cap=maxmin next2W=sele next2T=n next2Cap=min palpite=O
+da v-pcp ini=ncap cap=min simb=alpha prevW=regras prevT=n prevCap=min nextW=sele nextT=n nextCap=min prev2W=as prev2T=art prev2Cap=min next2W=? next2T=punc next2Cap=null palpite=O
+sele n ini=ncap cap=min simb=alpha prevW=da prevT=v-pcp prevCap=min nextW=? nextT=punc nextCap=null prev2W=regras prev2T=n prev2Cap=min next2W=, next2T=punc next2Cap=null palpite=O
+? punc ini=simb cap=null simb=null prevW=sele prevT=n prevCap=min nextW=, nextT=punc nextCap=null prev2W=da prev2T=v-pcp prev2Cap=min next2W=as next2T=art next2Cap=min palpite=O
+, punc ini=simb cap=null simb=null prevW=? prevT=punc prevCap=null nextW=as nextT=art nextCap=min prev2W=sele prev2T=n prev2Cap=min next2W=provas next2T=n next2Cap=min palpite=O
+as art ini=ncap cap=min simb=alpha prevW=, prevT=punc prevCap=null nextW=provas nextT=n nextCap=min prev2W=? prev2T=punc prev2Cap=null next2W=objetivas next2T=n next2Cap=min palpite=O
+provas n ini=ncap cap=min simb=alpha prevW=as prevT=art prevCap=min nextW=objetivas nextT=n nextCap=min prev2W=, prev2T=punc prev2Cap=null next2W=ter next2T=v-inf next2Cap=min palpite=O
+objetivas n ini=ncap cap=min simb=alpha prevW=provas prevT=n prevCap=min nextW=ter nextT=v-inf nextCap=min prev2W=as prev2T=art prev2Cap=min next2W=?50 next2T=n next2Cap=null palpite=O
+ter v-inf ini=ncap cap=min simb=alpha prevW=objetivas prevT=n prevCap=min nextW=?50 nextT=n nextCap=null prev2W=provas prev2T=n prev2Cap=min next2W=quest next2T=n next2Cap=min palpite=O
+?50 n ini=simb cap=null simb=null prevW=ter prevT=v-inf prevCap=min nextW=quest nextT=n nextCap=min prev2W=objetivas prev2T=n prev2Cap=min next2W=? next2T=punc next2Cap=null palpite=O
+quest n ini=ncap cap=min simb=alpha prevW=?50 prevT=n prevCap=null nextW=? nextT=punc nextCap=null prev2W=ter prev2T=v-inf prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+? punc ini=simb cap=null simb=null prevW=quest prevT=n prevCap=min nextW=null nextT=null nextCap=null prev2W=?50 prev2T=n prev2Cap=null next2W=null next2T=null next2Cap=null palpite=O

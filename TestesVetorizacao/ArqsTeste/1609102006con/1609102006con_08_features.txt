@@ -1,0 +1,9 @@
+Desses n ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=, nextT=punc nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=cerca next2T=n next2Cap=min palpite=O
+, punc ini=simb cap=null simb=null prevW=Desses prevT=n prevCap=maxmin nextW=cerca nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=de next2T=prp next2Cap=min palpite=O
+cerca n ini=ncap cap=min simb=alpha prevW=, prevT=punc prevCap=null nextW=de nextT=prp nextCap=min prev2W=Desses prev2T=n prev2Cap=maxmin next2W=9 next2T=num next2Cap=null palpite=I_VALOR
+de prp ini=ncap cap=min simb=alpha prevW=cerca prevT=n prevCap=min nextW=9 nextT=num nextCap=null prev2W=, prev2T=punc prev2Cap=null next2W=mil next2T=num next2Cap=min palpite=I_VALOR
+9 num ini=simb cap=null simb=num prevW=de prevT=prp prevCap=min nextW=mil nextT=num nextCap=min prev2W=cerca prev2T=n prev2Cap=min next2W=foram next2T=v-fin next2Cap=min palpite=I_VALOR
+mil num ini=ncap cap=min simb=alpha prevW=9 prevT=num prevCap=null nextW=foram nextT=v-fin nextCap=min prev2W=de prev2T=prp prev2Cap=min next2W=contratados next2T=n next2Cap=min palpite=I_VALOR
+foram v-fin ini=ncap cap=min simb=alpha prevW=mil prevT=num prevCap=min nextW=contratados nextT=n nextCap=min prev2W=9 prev2T=num prev2Cap=null next2W=. next2T=punc next2Cap=null palpite=O
+contratados n ini=ncap cap=min simb=alpha prevW=foram prevT=v-fin prevCap=min nextW=. nextT=punc nextCap=null prev2W=mil prev2T=num prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=contratados prevT=n prevCap=min nextW=null nextT=null nextCap=null prev2W=foram prev2T=v-fin prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

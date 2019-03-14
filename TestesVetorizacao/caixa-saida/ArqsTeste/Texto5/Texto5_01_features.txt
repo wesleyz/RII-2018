@@ -1,0 +1,15 @@
+Queriam v-fin ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=festejar nextT=v-inf nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=o next2T=art next2Cap=min palpite=O
+festejar v-inf ini=ncap cap=min simb=alpha prevW=Queriam prevT=v-fin prevCap=maxmin nextW=o nextT=art nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=aniversário next2T=n next2Cap=min palpite=O
+o art ini=ncap cap=min simb=alpha prevW=festejar prevT=v-inf prevCap=min nextW=aniversário nextT=n nextCap=min prev2W=Queriam prev2T=v-fin prev2Cap=maxmin next2W=do next2T=v-pcp next2Cap=min palpite=O
+aniversário n ini=ncap cap=min simb=alpha prevW=o prevT=art prevCap=min nextW=do nextT=v-pcp nextCap=min prev2W=festejar prev2T=v-inf prev2Cap=min next2W=Senhor next2T=n next2Cap=maxmin palpite=O
+do v-pcp ini=ncap cap=min simb=alpha prevW=aniversário prevT=n prevCap=min nextW=Senhor nextT=n nextCap=maxmin prev2W=o prev2T=art prev2Cap=min next2W=Leão next2T=n next2Cap=maxmin palpite=O
+Senhor n ini=cap cap=maxmin simb=alpha prevW=do prevT=v-pcp prevCap=min nextW=Leão nextT=n nextCap=maxmin prev2W=aniversário prev2T=n prev2Cap=min next2W=e next2T=conj-c next2Cap=min palpite=I_PESSOA
+Leão n ini=cap cap=maxmin simb=alpha prevW=Senhor prevT=n prevCap=maxmin nextW=e nextT=conj-c nextCap=min prev2W=do prev2T=v-pcp prev2Cap=min next2W=convidar next2T=v-inf next2Cap=min palpite=I_PESSOA
+e conj-c ini=ncap cap=min simb=alpha prevW=Leão prevT=n prevCap=maxmin nextW=convidar nextT=v-inf nextCap=min prev2W=Senhor prev2T=n prev2Cap=maxmin next2W=todos next2T=pron-det next2Cap=min palpite=O
+convidar v-inf ini=ncap cap=min simb=alpha prevW=e prevT=conj-c prevCap=min nextW=todos nextT=pron-det nextCap=min prev2W=Leão prev2T=n prev2Cap=maxmin next2W=os next2T=art next2Cap=min palpite=O
+todos pron-det ini=ncap cap=min simb=alpha prevW=convidar prevT=v-inf prevCap=min nextW=os nextT=art nextCap=min prev2W=e prev2T=conj-c prev2Cap=min next2W=animais next2T=n next2Cap=min palpite=O
+os art ini=ncap cap=min simb=alpha prevW=todos prevT=pron-det prevCap=min nextW=animais nextT=n nextCap=min prev2W=convidar prev2T=v-inf prev2Cap=min next2W=da next2T=v-pcp next2Cap=min palpite=O
+animais n ini=ncap cap=min simb=alpha prevW=os prevT=art prevCap=min nextW=da nextT=v-pcp nextCap=min prev2W=todos prev2T=pron-det prev2Cap=min next2W=selva next2T=n next2Cap=min palpite=O
+da v-pcp ini=ncap cap=min simb=alpha prevW=animais prevT=n prevCap=min nextW=selva nextT=n nextCap=min prev2W=os prev2T=art prev2Cap=min next2W=! next2T=punc next2Cap=null palpite=O
+selva n ini=ncap cap=min simb=alpha prevW=da prevT=v-pcp prevCap=min nextW=! nextT=punc nextCap=null prev2W=animais prev2T=n prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+! punc ini=simb cap=null simb=null prevW=selva prevT=n prevCap=min nextW=null nextT=null nextCap=null prev2W=da prev2T=v-pcp prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

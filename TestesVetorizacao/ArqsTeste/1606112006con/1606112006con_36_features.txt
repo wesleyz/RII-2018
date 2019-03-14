@@ -1,0 +1,8 @@
+Oliveira prop ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=Keil nextT=n nextCap=maxmin prev2W=null prev2T=null prev2Cap=null next2W=2,0 next2T=num next2Cap=null palpite=I_PESSOA
+Keil n ini=cap cap=maxmin simb=alpha prevW=Oliveira prevT=prop prevCap=maxmin nextW=2,0 nextT=num nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=5,0 next2T=num next2Cap=null palpite=I_PESSOA
+2,0 num ini=simb cap=null simb=null prevW=Keil prevT=n prevCap=maxmin nextW=5,0 nextT=num nextCap=null prev2W=Oliveira prev2T=prop prev2Cap=maxmin next2W=7,0 next2T=num next2Cap=null palpite=O
+5,0 num ini=simb cap=null simb=null prevW=2,0 prevT=num prevCap=null nextW=7,0 nextT=num nextCap=null prev2W=Keil prev2T=n prev2Cap=maxmin next2W=Juliana next2T=n next2Cap=maxmin palpite=O
+7,0 num ini=simb cap=null simb=null prevW=5,0 prevT=num prevCap=null nextW=Juliana nextT=n nextCap=maxmin prev2W=2,0 prev2T=num prev2Cap=null next2W=Sant next2T=prop next2Cap=maxmin palpite=O
+Juliana n ini=cap cap=maxmin simb=alpha prevW=7,0 prevT=num prevCap=null nextW=Sant nextT=prop nextCap=maxmin prev2W=5,0 prev2T=num prev2Cap=null next2W=? next2T=punc next2Cap=null palpite=I_PESSOA
+Sant prop ini=cap cap=maxmin simb=alpha prevW=Juliana prevT=n prevCap=maxmin nextW=? nextT=punc nextCap=null prev2W=7,0 prev2T=num prev2Cap=null next2W=null next2T=null next2Cap=null palpite=I_PESSOA
+? punc ini=simb cap=null simb=null prevW=Sant prevT=prop prevCap=maxmin nextW=null nextT=null nextCap=null prev2W=Juliana prev2T=n prev2Cap=maxmin next2W=null next2T=null next2Cap=null palpite=O

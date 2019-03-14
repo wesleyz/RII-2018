@@ -1,0 +1,5 @@
+OGO n ini=cap cap=max simb=alpha prevW=null prevT=null prevCap=null nextW=30 nextT=num nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=HORAS next2T=n next2Cap=max palpite=O
+30 num ini=simb cap=null simb=num prevW=OGO prevT=n prevCap=max nextW=HORAS nextT=n nextCap=max prev2W=null prev2T=null prev2Cap=null next2W=Aldin next2T=prop next2Cap=maxmin palpite=I_TEMPO
+HORAS n ini=cap cap=max simb=alpha prevW=30 prevT=num prevCap=null nextW=Aldin nextT=prop nextCap=maxmin prev2W=OGO prev2T=n prev2Cap=max next2W=? next2T=punc next2Cap=null palpite=I_TEMPO
+Aldin prop ini=cap cap=maxmin simb=alpha prevW=HORAS prevT=n prevCap=max nextW=? nextT=punc nextCap=null prev2W=30 prev2T=num prev2Cap=null next2W=null next2T=null next2Cap=null palpite=O
+? punc ini=simb cap=null simb=null prevW=Aldin prevT=prop prevCap=maxmin nextW=null nextT=null nextCap=null prev2W=HORAS prev2T=n prev2Cap=max next2W=null next2T=null next2Cap=null palpite=O

@@ -1,0 +1,17 @@
+Pesquisas n ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=apontam nextT=v-fin nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=: next2T=punc next2Cap=null palpite=O
+apontam v-fin ini=ncap cap=min simb=alpha prevW=Pesquisas prevT=n prevCap=maxmin nextW=: nextT=punc nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=pelo next2T=n next2Cap=min palpite=O
+: punc ini=simb cap=null simb=null prevW=apontam prevT=v-fin prevCap=min nextW=pelo nextT=n nextCap=min prev2W=Pesquisas prev2T=n prev2Cap=maxmin next2W=menos next2T=adv next2Cap=min palpite=O
+pelo n ini=ncap cap=min simb=alpha prevW=: prevT=punc prevCap=null nextW=menos nextT=adv nextCap=min prev2W=apontam prev2T=v-fin prev2Cap=min next2W=nos next2T=pron-pers next2Cap=min palpite=O
+menos adv ini=ncap cap=min simb=alpha prevW=pelo prevT=n prevCap=min nextW=nos nextT=pron-pers nextCap=min prev2W=: prev2T=punc prev2Cap=null next2W=?os next2T=n next2Cap=null palpite=O
+nos pron-pers ini=ncap cap=min simb=alpha prevW=menos prevT=adv prevCap=min nextW=?os nextT=n nextCap=null prev2W=pelo prev2T=n prev2Cap=min next2W=cinco next2T=num next2Cap=min palpite=O
+?os n ini=simb cap=null simb=null prevW=nos prevT=pron-pers prevCap=min nextW=cinco nextT=num nextCap=min prev2W=menos prev2T=adv prev2Cap=min next2W=anos next2T=n next2Cap=min palpite=O
+cinco num ini=ncap cap=min simb=alpha prevW=?os prevT=n prevCap=null nextW=anos nextT=n nextCap=min prev2W=nos prev2T=pron-pers prev2Cap=min next2W=compra-se next2T=n next2Cap=null palpite=O
+anos n ini=ncap cap=min simb=alpha prevW=cinco prevT=num prevCap=min nextW=compra-se nextT=n nextCap=null prev2W=?os prev2T=n prev2Cap=null next2W=menos next2T=adv next2Cap=min palpite=O
+compra-se n ini=ncap cap=null simb=null prevW=anos prevT=n prevCap=min nextW=menos nextT=adv nextCap=min prev2W=cinco prev2T=num prev2Cap=min next2W=mesas next2T=n next2Cap=min palpite=O
+menos adv ini=ncap cap=min simb=alpha prevW=compra-se prevT=n prevCap=null nextW=mesas nextT=n nextCap=min prev2W=anos prev2T=n prev2Cap=min next2W=de next2T=prp next2Cap=min palpite=O
+mesas n ini=ncap cap=min simb=alpha prevW=menos prevT=adv prevCap=min nextW=de nextT=prp nextCap=min prev2W=compra-se prev2T=n prev2Cap=null next2W=jantar next2T=n next2Cap=min palpite=O
+de prp ini=ncap cap=min simb=alpha prevW=mesas prevT=n prevCap=min nextW=jantar nextT=n nextCap=min prev2W=menos prev2T=adv prev2Cap=min next2W=na next2T=n next2Cap=min palpite=O
+jantar n ini=ncap cap=min simb=alpha prevW=de prevT=prp prevCap=min nextW=na nextT=n nextCap=min prev2W=mesas prev2T=n prev2Cap=min next2W=Gr next2T=prop next2Cap=maxmin palpite=O
+na n ini=ncap cap=min simb=alpha prevW=jantar prevT=n prevCap=min nextW=Gr nextT=prop nextCap=maxmin prev2W=de prev2T=prp prev2Cap=min next2W=? next2T=punc next2Cap=null palpite=O
+Gr prop ini=cap cap=maxmin simb=alpha prevW=na prevT=n prevCap=min nextW=? nextT=punc nextCap=null prev2W=jantar prev2T=n prev2Cap=min next2W=null next2T=null next2Cap=null palpite=I_LOCAL
+? punc ini=simb cap=null simb=null prevW=Gr prevT=prop prevCap=maxmin nextW=null nextT=null nextCap=null prev2W=na prev2T=n prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

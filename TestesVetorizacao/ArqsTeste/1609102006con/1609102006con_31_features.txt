@@ -1,0 +1,14 @@
+A art ini=cap cap=max simb=alpha prevW=null prevT=null prevCap=null nextW=chamada nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=acontecer next2T=v-inf next2Cap=min palpite=O
+chamada n ini=ncap cap=min simb=alpha prevW=A prevT=art prevCap=max nextW=acontecer nextT=v-inf nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=?ntre next2T=n next2Cap=null palpite=O
+acontecer v-inf ini=ncap cap=min simb=alpha prevW=chamada prevT=n prevCap=min nextW=?ntre nextT=n nextCap=null prev2W=A prev2T=art prev2Cap=max next2W=os next2T=art next2Cap=min palpite=O
+?ntre n ini=simb cap=null simb=null prevW=acontecer prevT=v-inf prevCap=min nextW=os nextT=art nextCap=min prev2W=chamada prev2T=n prev2Cap=min next2W=dias next2T=n next2Cap=min palpite=O
+os art ini=ncap cap=min simb=alpha prevW=?ntre prevT=n prevCap=null nextW=dias nextT=n nextCap=min prev2W=acontecer prev2T=v-inf prev2Cap=min next2W=29 next2T=num next2Cap=null palpite=O
+dias n ini=ncap cap=min simb=alpha prevW=os prevT=art prevCap=min nextW=29 nextT=num nextCap=null prev2W=?ntre prev2T=n prev2Cap=null next2W=de next2T=prp next2Cap=min palpite=O
+29 num ini=simb cap=null simb=num prevW=dias prevT=n prevCap=min nextW=de nextT=prp nextCap=min prev2W=os prev2T=art prev2Cap=min next2W=novembro next2T=n next2Cap=min palpite=I_TEMPO
+de prp ini=ncap cap=min simb=alpha prevW=29 prevT=num prevCap=null nextW=novembro nextT=n nextCap=min prev2W=dias prev2T=n prev2Cap=min next2W=e next2T=conj-c next2Cap=min palpite=I_TEMPO
+novembro n ini=ncap cap=min simb=alpha prevW=de prevT=prp prevCap=min nextW=e nextT=conj-c nextCap=min prev2W=29 prev2T=num prev2Cap=null next2W=12 next2T=num next2Cap=null palpite=I_TEMPO
+e conj-c ini=ncap cap=min simb=alpha prevW=novembro prevT=n prevCap=min nextW=12 nextT=num nextCap=null prev2W=de prev2T=prp prev2Cap=min next2W=de next2T=prp next2Cap=min palpite=O
+12 num ini=simb cap=null simb=num prevW=e prevT=conj-c prevCap=min nextW=de nextT=prp nextCap=min prev2W=novembro prev2T=n prev2Cap=min next2W=dezembro next2T=n next2Cap=min palpite=I_TEMPO
+de prp ini=ncap cap=min simb=alpha prevW=12 prevT=num prevCap=null nextW=dezembro nextT=n nextCap=min prev2W=e prev2T=conj-c prev2Cap=min next2W=. next2T=punc next2Cap=null palpite=I_TEMPO
+dezembro n ini=ncap cap=min simb=alpha prevW=de prevT=prp prevCap=min nextW=. nextT=punc nextCap=null prev2W=12 prev2T=num prev2Cap=null next2W=null next2T=null next2Cap=null palpite=I_TEMPO
+. punc ini=simb cap=null simb=null prevW=dezembro prevT=n prevCap=min nextW=null nextT=null nextCap=null prev2W=de prev2T=prp prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

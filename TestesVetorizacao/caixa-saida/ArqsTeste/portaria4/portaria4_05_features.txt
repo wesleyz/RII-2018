@@ -1,0 +1,16 @@
+II adj ini=cap cap=max simb=alpha prevW=null prevT=null prevCap=null nextW=– nextT=n nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=Esta next2T=pron-det next2Cap=maxmin palpite=O
+– n ini=simb cap=null simb=null prevW=II prevT=adj prevCap=max nextW=Esta nextT=pron-det nextCap=maxmin prev2W=null prev2T=null prev2Cap=null next2W=portaria next2T=n next2Cap=min palpite=O
+Esta pron-det ini=cap cap=maxmin simb=alpha prevW=– prevT=n prevCap=null nextW=portaria nextT=n nextCap=min prev2W=II prev2T=adj prev2Cap=max next2W=entra next2T=n next2Cap=min palpite=O
+portaria n ini=ncap cap=min simb=alpha prevW=Esta prevT=pron-det prevCap=maxmin nextW=entra nextT=n nextCap=min prev2W=– prev2T=n prev2Cap=null next2W=em next2T=prp next2Cap=min palpite=O
+entra n ini=ncap cap=min simb=alpha prevW=portaria prevT=n prevCap=min nextW=em nextT=prp nextCap=min prev2W=Esta prev2T=pron-det prev2Cap=maxmin next2W=vigor next2T=n next2Cap=min palpite=O
+em prp ini=ncap cap=min simb=alpha prevW=entra prevT=n prevCap=min nextW=vigor nextT=n nextCap=min prev2W=portaria prev2T=n prev2Cap=min next2W=nesta next2T=n next2Cap=min palpite=O
+vigor n ini=ncap cap=min simb=alpha prevW=em prevT=prp prevCap=min nextW=nesta nextT=n nextCap=min prev2W=entra prev2T=n prev2Cap=min next2W=data next2T=n next2Cap=min palpite=O
+nesta n ini=ncap cap=min simb=alpha prevW=vigor prevT=n prevCap=min nextW=data nextT=n nextCap=min prev2W=em prev2T=prp prev2Cap=min next2W=. next2T=punc next2Cap=null palpite=O
+data n ini=ncap cap=min simb=alpha prevW=nesta prevT=n prevCap=min nextW=. nextT=punc nextCap=null prev2W=vigor prev2T=n prev2Cap=min next2W=ADEMAR next2T=prop next2Cap=max palpite=O
+. punc ini=simb cap=null simb=null prevW=data prevT=n prevCap=min nextW=ADEMAR nextT=prop nextCap=max prev2W=nesta prev2T=n prev2Cap=min next2W=MANOEL next2T=prop next2Cap=max palpite=O
+ADEMAR prop ini=cap cap=max simb=alpha prevW=. prevT=punc prevCap=null nextW=MANOEL nextT=prop nextCap=max prev2W=data prev2T=n prev2Cap=min next2W=STANGE next2T=n next2Cap=max palpite=O
+MANOEL prop ini=cap cap=max simb=alpha prevW=ADEMAR prevT=prop prevCap=max nextW=STANGE nextT=n nextCap=max prev2W=. prev2T=punc prev2Cap=null next2W=Diretor next2T=n next2Cap=maxmin palpite=O
+STANGE n ini=cap cap=max simb=alpha prevW=MANOEL prevT=prop prevCap=max nextW=Diretor nextT=n nextCap=maxmin prev2W=ADEMAR prev2T=prop prev2Cap=max next2W=- next2T=punc next2Cap=null palpite=O
+Diretor n ini=cap cap=maxmin simb=alpha prevW=STANGE prevT=n prevCap=max nextW=- nextT=punc nextCap=null prev2W=MANOEL prev2T=prop prev2Cap=max next2W=Geral next2T=n next2Cap=maxmin palpite=O
+- punc ini=simb cap=null simb=null prevW=Diretor prevT=n prevCap=maxmin nextW=Geral nextT=n nextCap=maxmin prev2W=STANGE prev2T=n prev2Cap=max next2W=null next2T=null next2Cap=null palpite=O
+Geral n ini=cap cap=maxmin simb=alpha prevW=- prevT=punc prevCap=null nextW=null nextT=null nextCap=null prev2W=Diretor prev2T=n prev2Cap=maxmin next2W=null next2T=null next2Cap=null palpite=O

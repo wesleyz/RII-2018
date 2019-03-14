@@ -1,0 +1,3 @@
+l n ini=ncap cap=min simb=alpha prevW=null prevT=null prevCap=null nextW=. nextT=punc nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=? next2T=punc next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=l prevT=n prevCap=min nextW=? nextT=punc nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=null next2T=null next2Cap=null palpite=O
+? punc ini=simb cap=null simb=null prevW=. prevT=punc prevCap=null nextW=null nextT=null nextCap=null prev2W=l prev2T=n prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

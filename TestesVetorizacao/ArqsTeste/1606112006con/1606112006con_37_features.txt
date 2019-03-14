@@ -1,0 +1,17 @@
+Anna prop ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=de nextT=prp nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=Oliveira next2T=prop next2Cap=maxmin palpite=I_PESSOA
+de prp ini=ncap cap=min simb=alpha prevW=Anna prevT=prop prevCap=maxmin nextW=Oliveira nextT=prop nextCap=maxmin prev2W=null prev2T=null prev2Cap=null next2W=0,1 next2T=num next2Cap=null palpite=I_PESSOA
+Oliveira prop ini=cap cap=maxmin simb=alpha prevW=de prevT=prp prevCap=min nextW=0,1 nextT=num nextCap=null prev2W=Anna prev2T=prop prev2Cap=maxmin next2W=0,0 next2T=num next2Cap=null palpite=I_PESSOA
+0,1 num ini=simb cap=null simb=null prevW=Oliveira prevT=prop prevCap=maxmin nextW=0,0 nextT=num nextCap=null prev2W=de prev2T=prp prev2Cap=min next2W=0,1 next2T=num next2Cap=null palpite=O
+0,0 num ini=simb cap=null simb=null prevW=0,1 prevT=num prevCap=null nextW=0,1 nextT=num nextCap=null prev2W=Oliveira prev2T=prop prev2Cap=maxmin next2W=Lubieska next2T=prop next2Cap=maxmin palpite=O
+0,1 num ini=simb cap=null simb=null prevW=0,0 prevT=num prevCap=null nextW=Lubieska nextT=prop nextCap=maxmin prev2W=0,1 prev2T=num prev2Cap=null next2W=Rangel next2T=prop next2Cap=maxmin palpite=O
+Lubieska prop ini=cap cap=maxmin simb=alpha prevW=0,1 prevT=num prevCap=null nextW=Rangel nextT=prop nextCap=maxmin prev2W=0,0 prev2T=num prev2Cap=null next2W=Zenon next2T=prop next2Cap=maxmin palpite=O
+Rangel prop ini=cap cap=maxmin simb=alpha prevW=Lubieska prevT=prop prevCap=maxmin nextW=Zenon nextT=prop nextCap=maxmin prev2W=0,1 prev2T=num prev2Cap=null next2W=2,5 next2T=num next2Cap=null palpite=I_PESSOA
+Zenon prop ini=cap cap=maxmin simb=alpha prevW=Rangel prevT=prop prevCap=maxmin nextW=2,5 nextT=num nextCap=null prev2W=Lubieska prev2T=prop prev2Cap=maxmin next2W=3,0 next2T=num next2Cap=null palpite=I_PESSOA
+2,5 num ini=simb cap=null simb=null prevW=Zenon prevT=prop prevCap=maxmin nextW=3,0 nextT=num nextCap=null prev2W=Rangel prev2T=prop prev2Cap=maxmin next2W=5,5 next2T=num next2Cap=null palpite=O
+3,0 num ini=simb cap=null simb=null prevW=2,5 prevT=num prevCap=null nextW=5,5 nextT=num nextCap=null prev2W=Zenon prev2T=prop prev2Cap=maxmin next2W=Maria next2T=prop next2Cap=maxmin palpite=O
+5,5 num ini=simb cap=null simb=null prevW=3,0 prevT=num prevCap=null nextW=Maria nextT=prop nextCap=maxmin prev2W=2,5 prev2T=num prev2Cap=null next2W=da next2T=v-pcp next2Cap=min palpite=O
+Maria prop ini=cap cap=maxmin simb=alpha prevW=5,5 prevT=num prevCap=null nextW=da nextT=v-pcp nextCap=min prev2W=3,0 prev2T=num prev2Cap=null next2W=Penha next2T=n next2Cap=maxmin palpite=I_PESSOA
+da v-pcp ini=ncap cap=min simb=alpha prevW=Maria prevT=prop prevCap=maxmin nextW=Penha nextT=n nextCap=maxmin prev2W=5,5 prev2T=num prev2Cap=null next2W=Fran next2T=prop next2Cap=maxmin palpite=I_PESSOA
+Penha n ini=cap cap=maxmin simb=alpha prevW=da prevT=v-pcp prevCap=min nextW=Fran nextT=prop nextCap=maxmin prev2W=Maria prev2T=prop prev2Cap=maxmin next2W=? next2T=punc next2Cap=null palpite=I_PESSOA
+Fran prop ini=cap cap=maxmin simb=alpha prevW=Penha prevT=n prevCap=maxmin nextW=? nextT=punc nextCap=null prev2W=da prev2T=v-pcp prev2Cap=min next2W=null next2T=null next2Cap=null palpite=I_PESSOA
+? punc ini=simb cap=null simb=null prevW=Fran prevT=prop prevCap=maxmin nextW=null nextT=null nextCap=null prev2W=Penha prev2T=n prev2Cap=maxmin next2W=null next2T=null next2Cap=null palpite=O

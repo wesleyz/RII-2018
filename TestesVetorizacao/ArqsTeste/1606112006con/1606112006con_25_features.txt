@@ -1,0 +1,13 @@
+ICO prop ini=cap cap=max simb=alpha prevW=null prevT=null prevCap=null nextW=HOMEOPATA nextT=n nextCap=max prev2W=null prev2T=null prev2Cap=null next2W=Leontina next2T=prop next2Cap=maxmin palpite=O
+HOMEOPATA n ini=cap cap=max simb=alpha prevW=ICO prevT=prop prevCap=max nextW=Leontina nextT=prop nextCap=maxmin prev2W=null prev2T=null prev2Cap=null next2W=Aparecida next2T=n next2Cap=maxmin palpite=O
+Leontina prop ini=cap cap=maxmin simb=alpha prevW=HOMEOPATA prevT=n prevCap=max nextW=Aparecida nextT=n nextCap=maxmin prev2W=ICO prev2T=prop prev2Cap=max next2W=de next2T=prp next2Cap=min palpite=O
+Aparecida n ini=cap cap=maxmin simb=alpha prevW=Leontina prevT=prop prevCap=maxmin nextW=de nextT=prp nextCap=min prev2W=HOMEOPATA prev2T=n prev2Cap=max next2W=Oliveira next2T=prop next2Cap=maxmin palpite=I_PESSOA
+de prp ini=ncap cap=min simb=alpha prevW=Aparecida prevT=n prevCap=maxmin nextW=Oliveira nextT=prop nextCap=maxmin prev2W=Leontina prev2T=prop prev2Cap=maxmin next2W=Cestari next2T=prop next2Cap=maxmin palpite=I_PESSOA
+Oliveira prop ini=cap cap=maxmin simb=alpha prevW=de prevT=prp prevCap=min nextW=Cestari nextT=prop nextCap=maxmin prev2W=Aparecida prev2T=n prev2Cap=maxmin next2W=2,0 next2T=num next2Cap=null palpite=I_PESSOA
+Cestari prop ini=cap cap=maxmin simb=alpha prevW=Oliveira prevT=prop prevCap=maxmin nextW=2,0 nextT=num nextCap=null prev2W=de prev2T=prp prev2Cap=min next2W=5,0 next2T=num next2Cap=null palpite=I_PESSOA
+2,0 num ini=simb cap=null simb=null prevW=Cestari prevT=prop prevCap=maxmin nextW=5,0 nextT=num nextCap=null prev2W=Oliveira prev2T=prop prev2Cap=maxmin next2W=7,0 next2T=num next2Cap=null palpite=O
+5,0 num ini=simb cap=null simb=null prevW=2,0 prevT=num prevCap=null nextW=7,0 nextT=num nextCap=null prev2W=Cestari prev2T=prop prev2Cap=maxmin next2W=n next2T=n next2Cap=min palpite=O
+7,0 num ini=simb cap=null simb=null prevW=5,0 prevT=num prevCap=null nextW=n nextT=n nextCap=min prev2W=2,0 prev2T=num prev2Cap=null next2W=M next2T=prop next2Cap=max palpite=O
+n n ini=ncap cap=min simb=alpha prevW=7,0 prevT=num prevCap=null nextW=M nextT=prop nextCap=max prev2W=5,0 prev2T=num prev2Cap=null next2W=? next2T=punc next2Cap=null palpite=O
+M prop ini=cap cap=max simb=alpha prevW=n prevT=n prevCap=min nextW=? nextT=punc nextCap=null prev2W=7,0 prev2T=num prev2Cap=null next2W=null next2T=null next2Cap=null palpite=O
+? punc ini=simb cap=null simb=null prevW=M prevT=prop prevCap=max nextW=null nextT=null nextCap=null prev2W=n prev2T=n prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

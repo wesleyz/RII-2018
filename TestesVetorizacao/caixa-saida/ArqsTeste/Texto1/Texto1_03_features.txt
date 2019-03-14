@@ -1,0 +1,11 @@
+As art ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=flores nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=entristeceram next2T=v-fin next2Cap=min palpite=O
+flores n ini=ncap cap=min simb=alpha prevW=As prevT=art prevCap=maxmin nextW=entristeceram nextT=v-fin nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=e next2T=conj-c next2Cap=min palpite=O
+entristeceram v-fin ini=ncap cap=min simb=alpha prevW=flores prevT=n prevCap=min nextW=e nextT=conj-c nextCap=min prev2W=As prev2T=art prev2Cap=maxmin next2W=por next2T=prp next2Cap=min palpite=O
+e conj-c ini=ncap cap=min simb=alpha prevW=entristeceram prevT=v-fin prevCap=min nextW=por nextT=prp nextCap=min prev2W=flores prev2T=n prev2Cap=min next2W=isso next2T=pron-indp next2Cap=min palpite=O
+por prp ini=ncap cap=min simb=alpha prevW=e prevT=conj-c prevCap=min nextW=isso nextT=pron-indp nextCap=min prev2W=entristeceram prev2T=v-fin prev2Cap=min next2W=não next2T=adv next2Cap=min palpite=O
+isso pron-indp ini=ncap cap=min simb=alpha prevW=por prevT=prp prevCap=min nextW=não nextT=adv nextCap=min prev2W=e prev2T=conj-c prev2Cap=min next2W=cheiravam next2T=v-fin next2Cap=min palpite=O
+não adv ini=ncap cap=min simb=alpha prevW=isso prevT=pron-indp prevCap=min nextW=cheiravam nextT=v-fin nextCap=min prev2W=por prev2T=prp prev2Cap=min next2W=a next2T=art next2Cap=min palpite=O
+cheiravam v-fin ini=ncap cap=min simb=alpha prevW=não prevT=adv prevCap=min nextW=a nextT=art nextCap=min prev2W=isso prev2T=pron-indp prev2Cap=min next2W=nada next2T=pron-indp next2Cap=min palpite=O
+a art ini=ncap cap=min simb=alpha prevW=cheiravam prevT=v-fin prevCap=min nextW=nada nextT=pron-indp nextCap=min prev2W=não prev2T=adv prev2Cap=min next2W=. next2T=punc next2Cap=null palpite=O
+nada pron-indp ini=ncap cap=min simb=alpha prevW=a prevT=art prevCap=min nextW=. nextT=punc nextCap=null prev2W=cheiravam prev2T=v-fin prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=nada prevT=pron-indp prevCap=min nextW=null nextT=null nextCap=null prev2W=a prev2T=art prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

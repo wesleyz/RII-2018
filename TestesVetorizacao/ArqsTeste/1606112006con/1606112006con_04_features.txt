@@ -1,0 +1,11 @@
+O art ini=cap cap=max simb=alpha prevW=null prevT=null prevCap=null nextW=resultado nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=final next2T=n next2Cap=min palpite=O
+resultado n ini=ncap cap=min simb=alpha prevW=O prevT=art prevCap=max nextW=final nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=da next2T=v-pcp next2Cap=min palpite=O
+final n ini=ncap cap=min simb=alpha prevW=resultado prevT=n prevCap=min nextW=da nextT=v-pcp nextCap=min prev2W=O prev2T=art prev2Cap=max next2W=sele next2T=n next2Cap=min palpite=O
+da v-pcp ini=ncap cap=min simb=alpha prevW=final prevT=n prevCap=min nextW=sele nextT=n nextCap=min prev2W=resultado prev2T=n prev2Cap=min next2W=? next2T=punc next2Cap=null palpite=O
+sele n ini=ncap cap=min simb=alpha prevW=da prevT=v-pcp prevCap=min nextW=? nextT=punc nextCap=null prev2W=final prev2T=n prev2Cap=min next2W=est next2T=n next2Cap=min palpite=O
+? punc ini=simb cap=null simb=null prevW=sele prevT=n prevCap=min nextW=est nextT=n nextCap=min prev2W=da prev2T=v-pcp prev2Cap=min next2W=?arcado next2T=v-pcp next2Cap=null palpite=O
+est n ini=ncap cap=min simb=alpha prevW=? prevT=punc prevCap=null nextW=?arcado nextT=v-pcp nextCap=null prev2W=sele prev2T=n prev2Cap=min next2W=para next2T=prp next2Cap=min palpite=O
+?arcado v-pcp ini=simb cap=null simb=null prevW=est prevT=n prevCap=min nextW=para nextT=prp nextCap=min prev2W=? prev2T=punc prev2Cap=null next2W=sexta-feira next2T=n next2Cap=null palpite=O
+para prp ini=ncap cap=min simb=alpha prevW=?arcado prevT=v-pcp prevCap=null nextW=sexta-feira nextT=n nextCap=null prev2W=est prev2T=n prev2Cap=min next2W=. next2T=punc next2Cap=null palpite=O
+sexta-feira n ini=ncap cap=null simb=null prevW=para prevT=prp prevCap=min nextW=. nextT=punc nextCap=null prev2W=?arcado prev2T=v-pcp prev2Cap=null next2W=null next2T=null next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=sexta-feira prevT=n prevCap=null nextW=null nextT=null nextCap=null prev2W=para prev2T=prp prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

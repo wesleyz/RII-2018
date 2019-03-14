@@ -1,0 +1,16 @@
+MINISTÉRIO prop ini=cap cap=max simb=alpha prevW=null prevT=null prevCap=null nextW=DA nextT=prop nextCap=max prev2W=null prev2T=null prev2Cap=null next2W=EDUCAÇÃO next2T=n next2Cap=max palpite=I_ORGANIZACAO
+DA prop ini=cap cap=max simb=alpha prevW=MINISTÉRIO prevT=prop prevCap=max nextW=EDUCAÇÃO nextT=n nextCap=max prev2W=null prev2T=null prev2Cap=null next2W=TERMO next2T=n next2Cap=max palpite=I_ORGANIZACAO
+EDUCAÇÃO n ini=cap cap=max simb=alpha prevW=DA prevT=prop prevCap=max nextW=TERMO nextT=n nextCap=max prev2W=MINISTÉRIO prev2T=prop prev2Cap=max next2W=DE next2T=n next2Cap=max palpite=I_ORGANIZACAO
+TERMO n ini=cap cap=max simb=alpha prevW=EDUCAÇÃO prevT=n prevCap=max nextW=DE nextT=n nextCap=max prev2W=DA prev2T=prop prev2Cap=max next2W=CONVOCAÇÃO next2T=prop next2Cap=max palpite=I_ORGANIZACAO
+DE n ini=cap cap=max simb=alpha prevW=TERMO prevT=n prevCap=max nextW=CONVOCAÇÃO nextT=prop nextCap=max prev2W=EDUCAÇÃO prev2T=n prev2Cap=max next2W=Nº next2T=n next2Cap=maxmin palpite=I_ORGANIZACAO
+CONVOCAÇÃO prop ini=cap cap=max simb=alpha prevW=DE prevT=n prevCap=max nextW=Nº nextT=n nextCap=maxmin prev2W=TERMO prev2T=n prev2Cap=max next2W=006 next2T=num next2Cap=null palpite=I_ORGANIZACAO
+Nº n ini=cap cap=maxmin simb=alpha prevW=CONVOCAÇÃO prevT=prop prevCap=max nextW=006 nextT=num nextCap=null prev2W=DE prev2T=n prev2Cap=max next2W=, next2T=punc next2Cap=null palpite=I_ORGANIZACAO
+006 num ini=simb cap=null simb=num prevW=Nº prevT=n prevCap=maxmin nextW=, nextT=punc nextCap=null prev2W=CONVOCAÇÃO prev2T=prop prev2Cap=max next2W=DE next2T=n next2Cap=max palpite=O
+, punc ini=simb cap=null simb=null prevW=006 prevT=num prevCap=null nextW=DE nextT=n nextCap=max prev2W=Nº prev2T=n prev2Cap=maxmin next2W=17 next2T=num next2Cap=null palpite=O
+DE n ini=cap cap=max simb=alpha prevW=, prevT=punc prevCap=null nextW=17 nextT=num nextCap=null prev2W=006 prev2T=num prev2Cap=null next2W=DE next2T=n next2Cap=max palpite=O
+17 num ini=simb cap=null simb=num prevW=DE prevT=n prevCap=max nextW=DE nextT=n nextCap=max prev2W=, prev2T=punc prev2Cap=null next2W=AGOSTO next2T=n next2Cap=max palpite=I_TEMPO
+DE n ini=cap cap=max simb=alpha prevW=17 prevT=num prevCap=null nextW=AGOSTO nextT=n nextCap=max prev2W=DE prev2T=n prev2Cap=max next2W=DE next2T=n next2Cap=max palpite=I_TEMPO
+AGOSTO n ini=cap cap=max simb=alpha prevW=DE prevT=n prevCap=max nextW=DE nextT=n nextCap=max prev2W=17 prev2T=num prev2Cap=null next2W=2010 next2T=n next2Cap=null palpite=I_TEMPO
+DE n ini=cap cap=max simb=alpha prevW=AGOSTO prevT=n prevCap=max nextW=2010 nextT=n nextCap=null prev2W=DE prev2T=n prev2Cap=max next2W=. next2T=punc next2Cap=null palpite=I_TEMPO
+2010 n ini=simb cap=null simb=num prevW=DE prevT=n prevCap=max nextW=. nextT=punc nextCap=null prev2W=AGOSTO prev2T=n prev2Cap=max next2W=null next2T=null next2Cap=null palpite=I_TEMPO
+. punc ini=simb cap=null simb=null prevW=2010 prevT=n prevCap=null nextW=null nextT=null nextCap=null prev2W=DE prev2T=n prev2Cap=max next2W=null next2T=null next2Cap=null palpite=O

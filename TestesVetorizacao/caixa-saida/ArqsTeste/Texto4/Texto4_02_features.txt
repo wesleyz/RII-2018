@@ -1,0 +1,15 @@
+Escolheu v-fin ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=cenouras nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=, next2T=punc next2Cap=null palpite=O
+cenouras n ini=ncap cap=min simb=alpha prevW=Escolheu prevT=v-fin prevCap=maxmin nextW=, nextT=punc nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=alfaces next2T=n next2Cap=min palpite=O
+, punc ini=simb cap=null simb=null prevW=cenouras prevT=n prevCap=min nextW=alfaces nextT=n nextCap=min prev2W=Escolheu prev2T=v-fin prev2Cap=maxmin next2W=e next2T=conj-c next2Cap=min palpite=O
+alfaces n ini=ncap cap=min simb=alpha prevW=, prevT=punc prevCap=null nextW=e nextT=conj-c nextCap=min prev2W=cenouras prev2T=n prev2Cap=min next2W=rabanetes next2T=n next2Cap=min palpite=O
+e conj-c ini=ncap cap=min simb=alpha prevW=alfaces prevT=n prevCap=min nextW=rabanetes nextT=n nextCap=min prev2W=, prev2T=punc prev2Cap=null next2W=, next2T=punc next2Cap=null palpite=O
+rabanetes n ini=ncap cap=min simb=alpha prevW=e prevT=conj-c prevCap=min nextW=, nextT=punc nextCap=null prev2W=alfaces prev2T=n prev2Cap=min next2W=para next2T=prp next2Cap=min palpite=O
+, punc ini=simb cap=null simb=null prevW=rabanetes prevT=n prevCap=min nextW=para nextT=prp nextCap=min prev2W=e prev2T=conj-c prev2Cap=min next2W=fortalecer next2T=v-inf next2Cap=min palpite=O
+para prp ini=ncap cap=min simb=alpha prevW=, prevT=punc prevCap=null nextW=fortalecer nextT=v-inf nextCap=min prev2W=rabanetes prev2T=n prev2Cap=min next2W=os next2T=art next2Cap=min palpite=O
+fortalecer v-inf ini=ncap cap=min simb=alpha prevW=para prevT=prp prevCap=min nextW=os nextT=art nextCap=min prev2W=, prev2T=punc prev2Cap=null next2W=olhos next2T=n next2Cap=min palpite=O
+os art ini=ncap cap=min simb=alpha prevW=fortalecer prevT=v-inf prevCap=min nextW=olhos nextT=n nextCap=min prev2W=para prev2T=prp prev2Cap=min next2W=e next2T=conj-c next2Cap=min palpite=O
+olhos n ini=ncap cap=min simb=alpha prevW=os prevT=art prevCap=min nextW=e nextT=conj-c nextCap=min prev2W=fortalecer prev2T=v-inf prev2Cap=min next2W=os next2T=art next2Cap=min palpite=O
+e conj-c ini=ncap cap=min simb=alpha prevW=olhos prevT=n prevCap=min nextW=os nextT=art nextCap=min prev2W=os prev2T=art prev2Cap=min next2W=dentes next2T=n next2Cap=min palpite=O
+os art ini=ncap cap=min simb=alpha prevW=e prevT=conj-c prevCap=min nextW=dentes nextT=n nextCap=min prev2W=olhos prev2T=n prev2Cap=min next2W=. next2T=punc next2Cap=null palpite=O
+dentes n ini=ncap cap=min simb=alpha prevW=os prevT=art prevCap=min nextW=. nextT=punc nextCap=null prev2W=e prev2T=conj-c prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=dentes prevT=n prevCap=min nextW=null nextT=null nextCap=null prev2W=os prev2T=art prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

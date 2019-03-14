@@ -1,0 +1,11 @@
+Os art ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=palitos nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=existem next2T=v-fin next2Cap=min palpite=O
+palitos n ini=ncap cap=min simb=alpha prevW=Os prevT=art prevCap=maxmin nextW=existem nextT=v-fin nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=, next2T=punc next2Cap=null palpite=O
+existem v-fin ini=ncap cap=min simb=alpha prevW=palitos prevT=n prevCap=min nextW=, nextT=punc nextCap=null prev2W=Os prev2T=art prev2Cap=maxmin next2W=mas next2T=conj-c next2Cap=min palpite=O
+, punc ini=simb cap=null simb=null prevW=existem prevT=v-fin prevCap=min nextW=mas nextT=conj-c nextCap=min prev2W=palitos prev2T=n prev2Cap=min next2W=n next2T=n next2Cap=min palpite=O
+mas conj-c ini=ncap cap=min simb=alpha prevW=, prevT=punc prevCap=null nextW=n nextT=n nextCap=min prev2W=existem prev2T=v-fin prev2Cap=min next2W=?nos next2T=n next2Cap=null palpite=O
+n n ini=ncap cap=min simb=alpha prevW=mas prevT=conj-c prevCap=min nextW=?nos nextT=n nextCap=null prev2W=, prev2T=punc prev2Cap=null next2W=servimos next2T=n next2Cap=min palpite=O
+?nos n ini=simb cap=null simb=null prevW=n prevT=n prevCap=min nextW=servimos nextT=n nextCap=min prev2W=mas prev2T=conj-c prev2Cap=min next2W=deles next2T=n next2Cap=min palpite=O
+servimos n ini=ncap cap=min simb=alpha prevW=?nos prevT=n prevCap=null nextW=deles nextT=n nextCap=min prev2W=n prev2T=n prev2Cap=min next2W=?esa next2T=n next2Cap=null palpite=O
+deles n ini=ncap cap=min simb=alpha prevW=servimos prevT=n prevCap=min nextW=?esa nextT=n nextCap=null prev2W=?nos prev2T=n prev2Cap=null next2W=. next2T=punc next2Cap=null palpite=O
+?esa n ini=simb cap=null simb=null prevW=deles prevT=n prevCap=min nextW=. nextT=punc nextCap=null prev2W=servimos prev2T=n prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=?esa prevT=n prevCap=null nextW=null nextT=null nextCap=null prev2W=deles prev2T=n prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

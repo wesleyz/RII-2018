@@ -1,0 +1,14 @@
+SERVIÇO n ini=cap cap=max simb=alpha prevW=null prevT=null prevCap=null nextW=PÚBLICO nextT=prop nextCap=max prev2W=null prev2T=null prev2Cap=null next2W=FEDERAL next2T=prop next2Cap=max palpite=O
+PÚBLICO prop ini=cap cap=max simb=alpha prevW=SERVIÇO prevT=n prevCap=max nextW=FEDERAL nextT=prop nextCap=max prev2W=null prev2T=null prev2Cap=null next2W=PORTARIA next2T=prop next2Cap=max palpite=O
+FEDERAL prop ini=cap cap=max simb=alpha prevW=PÚBLICO prevT=prop prevCap=max nextW=PORTARIA nextT=prop nextCap=max prev2W=SERVIÇO prev2T=n prev2Cap=max next2W=Nº next2T=n next2Cap=maxmin palpite=O
+PORTARIA prop ini=cap cap=max simb=alpha prevW=FEDERAL prevT=prop prevCap=max nextW=Nº nextT=n nextCap=maxmin prev2W=PÚBLICO prev2T=prop prev2Cap=max next2W=96 next2T=num next2Cap=null palpite=O
+Nº n ini=cap cap=maxmin simb=alpha prevW=PORTARIA prevT=prop prevCap=max nextW=96 nextT=num nextCap=null prev2W=FEDERAL prev2T=prop prev2Cap=max next2W=, next2T=punc next2Cap=null palpite=O
+96 num ini=simb cap=null simb=num prevW=Nº prevT=n prevCap=maxmin nextW=, nextT=punc nextCap=null prev2W=PORTARIA prev2T=prop prev2Cap=max next2W=DE next2T=n next2Cap=max palpite=O
+, punc ini=simb cap=null simb=null prevW=96 prevT=num prevCap=null nextW=DE nextT=n nextCap=max prev2W=Nº prev2T=n prev2Cap=maxmin next2W=18 next2T=num next2Cap=null palpite=O
+DE n ini=cap cap=max simb=alpha prevW=, prevT=punc prevCap=null nextW=18 nextT=num nextCap=null prev2W=96 prev2T=num prev2Cap=null next2W=DE next2T=n next2Cap=max palpite=O
+18 num ini=simb cap=null simb=num prevW=DE prevT=n prevCap=max nextW=DE nextT=n nextCap=max prev2W=, prev2T=punc prev2Cap=null next2W=NOVEMBRO next2T=n next2Cap=max palpite=I_TEMPO
+DE n ini=cap cap=max simb=alpha prevW=18 prevT=num prevCap=null nextW=NOVEMBRO nextT=n nextCap=max prev2W=DE prev2T=n prev2Cap=max next2W=DE next2T=n next2Cap=max palpite=I_TEMPO
+NOVEMBRO n ini=cap cap=max simb=alpha prevW=DE prevT=n prevCap=max nextW=DE nextT=n nextCap=max prev2W=18 prev2T=num prev2Cap=null next2W=2009 next2T=n next2Cap=null palpite=I_TEMPO
+DE n ini=cap cap=max simb=alpha prevW=NOVEMBRO prevT=n prevCap=max nextW=2009 nextT=n nextCap=null prev2W=DE prev2T=n prev2Cap=max next2W=. next2T=punc next2Cap=null palpite=I_TEMPO
+2009 n ini=simb cap=null simb=num prevW=DE prevT=n prevCap=max nextW=. nextT=punc nextCap=null prev2W=NOVEMBRO prev2T=n prev2Cap=max next2W=null next2T=null next2Cap=null palpite=I_TEMPO
+. punc ini=simb cap=null simb=null prevW=2009 prevT=n prevCap=null nextW=null nextT=null nextCap=null prev2W=DE prev2T=n prev2Cap=max next2W=null next2T=null next2Cap=null palpite=O

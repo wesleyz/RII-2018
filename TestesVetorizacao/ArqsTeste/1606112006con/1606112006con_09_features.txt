@@ -1,0 +1,10 @@
+Os art ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=postos nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=s next2T=n next2Cap=min palpite=O
+postos n ini=ncap cap=min simb=alpha prevW=Os prevT=art prevCap=maxmin nextW=s nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=?para next2T=punc next2Cap=null palpite=O
+s n ini=ncap cap=min simb=alpha prevW=postos prevT=n prevCap=min nextW=?para nextT=punc nextCap=null prev2W=Os prev2T=art prev2Cap=maxmin next2W=professor next2T=n next2Cap=min palpite=O
+?para punc ini=simb cap=null simb=null prevW=s prevT=n prevCap=min nextW=professor nextT=n nextCap=min prev2W=postos prev2T=n prev2Cap=min next2W=B next2T=prop next2Cap=max palpite=O
+professor n ini=ncap cap=min simb=alpha prevW=?para prevT=punc prevCap=null nextW=B nextT=prop nextCap=max prev2W=s prev2T=n prev2Cap=min next2W=dinamizador next2T=n next2Cap=min palpite=O
+B prop ini=cap cap=max simb=alpha prevW=professor prevT=n prevCap=min nextW=dinamizador nextT=n nextCap=min prev2W=?para prev2T=punc prev2Cap=null next2W=de next2T=prp next2Cap=min palpite=O
+dinamizador n ini=ncap cap=min simb=alpha prevW=B prevT=prop prevCap=max nextW=de nextT=prp nextCap=min prev2W=professor prev2T=n prev2Cap=min next2W=Educa next2T=prop next2Cap=maxmin palpite=O
+de prp ini=ncap cap=min simb=alpha prevW=dinamizador prevT=n prevCap=min nextW=Educa nextT=prop nextCap=maxmin prev2W=B prev2T=prop prev2Cap=max next2W=? next2T=punc next2Cap=null palpite=O
+Educa prop ini=cap cap=maxmin simb=alpha prevW=de prevT=prp prevCap=min nextW=? nextT=punc nextCap=null prev2W=dinamizador prev2T=n prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+? punc ini=simb cap=null simb=null prevW=Educa prevT=prop prevCap=maxmin nextW=null nextT=null nextCap=null prev2W=de prev2T=prp prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

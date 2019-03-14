@@ -1,0 +1,3 @@
+6 pencil 2 2 A 1 38 114 
+4 book 2 2 A 0 0 114 
+6 school 2 2 A 2 76 114 

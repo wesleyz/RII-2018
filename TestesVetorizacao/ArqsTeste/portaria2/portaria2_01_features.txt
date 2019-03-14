@@ -1,0 +1,5 @@
+Concede n ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=Licença nextT=n nextCap=maxmin prev2W=null prev2T=null prev2Cap=null next2W=para next2T=prp next2Cap=min palpite=O
+Licença n ini=cap cap=maxmin simb=alpha prevW=Concede prevT=n prevCap=maxmin nextW=para nextT=prp nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=Capacitação next2T=n next2Cap=maxmin palpite=O
+para prp ini=ncap cap=min simb=alpha prevW=Licença prevT=n prevCap=maxmin nextW=Capacitação nextT=n nextCap=maxmin prev2W=Concede prev2T=n prev2Cap=maxmin next2W=. next2T=punc next2Cap=null palpite=O
+Capacitação n ini=cap cap=maxmin simb=alpha prevW=para prevT=prp prevCap=min nextW=. nextT=punc nextCap=null prev2W=Licença prev2T=n prev2Cap=maxmin next2W=null next2T=null next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=Capacitação prevT=n prevCap=maxmin nextW=null nextT=null nextCap=null prev2W=para prev2T=prp prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O

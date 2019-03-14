@@ -1,0 +1,10 @@
+ICO prop ini=cap cap=max simb=alpha prevW=null prevT=null prevCap=null nextW=PEDIATRA nextT=prop nextCap=max prev2W=null prev2T=null prev2Cap=null next2W=Aline next2T=prop next2Cap=maxmin palpite=O
+PEDIATRA prop ini=cap cap=max simb=alpha prevW=ICO prevT=prop prevCap=max nextW=Aline nextT=prop nextCap=maxmin prev2W=null prev2T=null prev2Cap=null next2W=Caetano next2T=prop next2Cap=maxmin palpite=O
+Aline prop ini=cap cap=maxmin simb=alpha prevW=PEDIATRA prevT=prop prevCap=max nextW=Caetano nextT=prop nextCap=maxmin prev2W=ICO prev2T=prop prev2Cap=max next2W=Marchette next2T=prop next2Cap=maxmin palpite=I_PESSOA
+Caetano prop ini=cap cap=maxmin simb=alpha prevW=Aline prevT=prop prevCap=maxmin nextW=Marchette nextT=prop nextCap=maxmin prev2W=PEDIATRA prev2T=prop prev2Cap=max next2W=0,0 next2T=num next2Cap=null palpite=I_PESSOA
+Marchette prop ini=cap cap=maxmin simb=alpha prevW=Caetano prevT=prop prevCap=maxmin nextW=0,0 nextT=num nextCap=null prev2W=Aline prev2T=prop prev2Cap=maxmin next2W=2,0 next2T=num next2Cap=null palpite=I_PESSOA
+0,0 num ini=simb cap=null simb=null prevW=Marchette prevT=prop prevCap=maxmin nextW=2,0 nextT=num nextCap=null prev2W=Caetano prev2T=prop prev2Cap=maxmin next2W=2,0 next2T=num next2Cap=null palpite=O
+2,0 num ini=simb cap=null simb=null prevW=0,0 prevT=num prevCap=null nextW=2,0 nextT=num nextCap=null prev2W=Marchette prev2T=prop prev2Cap=maxmin next2W=Ant next2T=prop next2Cap=maxmin palpite=O
+2,0 num ini=simb cap=null simb=null prevW=2,0 prevT=num prevCap=null nextW=Ant nextT=prop nextCap=maxmin prev2W=0,0 prev2T=num prev2Cap=null next2W=? next2T=punc next2Cap=null palpite=O
+Ant prop ini=cap cap=maxmin simb=alpha prevW=2,0 prevT=num prevCap=null nextW=? nextT=punc nextCap=null prev2W=2,0 prev2T=num prev2Cap=null next2W=null next2T=null next2Cap=null palpite=O
+? punc ini=simb cap=null simb=null prevW=Ant prevT=prop prevCap=maxmin nextW=null nextT=null nextCap=null prev2W=2,0 prev2T=num prev2Cap=null next2W=null next2T=null next2Cap=null palpite=O

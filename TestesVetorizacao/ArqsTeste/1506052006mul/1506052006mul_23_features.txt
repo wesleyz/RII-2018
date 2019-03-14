@@ -1,0 +1,12 @@
+Ao prp ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=sentar-se nextT=n nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=, next2T=punc next2Cap=null palpite=O
+sentar-se n ini=ncap cap=null simb=null prevW=Ao prevT=prp prevCap=maxmin nextW=, nextT=punc nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=desdobre next2T=adj next2Cap=min palpite=O
+, punc ini=simb cap=null simb=null prevW=sentar-se prevT=n prevCap=null nextW=desdobre nextT=adj nextCap=min prev2W=Ao prev2T=prp prev2Cap=maxmin next2W=o next2T=art next2Cap=min palpite=O
+desdobre adj ini=ncap cap=min simb=alpha prevW=, prevT=punc prevCap=null nextW=o nextT=art nextCap=min prev2W=sentar-se prev2T=n prev2Cap=null next2W=guardanapo next2T=n next2Cap=min palpite=O
+o art ini=ncap cap=min simb=alpha prevW=desdobre prevT=adj prevCap=min nextW=guardanapo nextT=n nextCap=min prev2W=, prev2T=punc prev2Cap=null next2W=, next2T=punc next2Cap=null palpite=O
+guardanapo n ini=ncap cap=min simb=alpha prevW=o prevT=art prevCap=min nextW=, nextT=punc nextCap=null prev2W=desdobre prev2T=adj prev2Cap=min next2W=conservando-lhe next2T=n next2Cap=null palpite=O
+, punc ini=simb cap=null simb=null prevW=guardanapo prevT=n prevCap=min nextW=conservando-lhe nextT=n nextCap=null prev2W=o prev2T=art prev2Cap=min next2W=a next2T=art next2Cap=min palpite=O
+conservando-lhe n ini=ncap cap=null simb=null prevW=, prevT=punc prevCap=null nextW=a nextT=art nextCap=min prev2W=guardanapo prev2T=n prev2Cap=min next2W=?a next2T=n next2Cap=null palpite=O
+a art ini=ncap cap=min simb=alpha prevW=conservando-lhe prevT=n prevCap=null nextW=?a nextT=n nextCap=null prev2W=, prev2T=punc prev2Cap=null next2W=dobra next2T=n next2Cap=min palpite=O
+?a n ini=simb cap=null simb=null prevW=a prevT=art prevCap=min nextW=dobra nextT=n nextCap=min prev2W=conservando-lhe prev2T=n prev2Cap=null next2W=. next2T=punc next2Cap=null palpite=O
+dobra n ini=ncap cap=min simb=alpha prevW=?a prevT=n prevCap=null nextW=. nextT=punc nextCap=null prev2W=a prev2T=art prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
+. punc ini=simb cap=null simb=null prevW=dobra prevT=n prevCap=min nextW=null nextT=null nextCap=null prev2W=?a prev2T=n prev2Cap=null next2W=null next2T=null next2Cap=null palpite=O

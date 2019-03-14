@@ -1,0 +1,10 @@
+Antiques n ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=, nextT=punc nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=no next2T=n next2Cap=min palpite=O
+, punc ini=simb cap=null simb=null prevW=Antiques prevT=n prevCap=maxmin nextW=no nextT=n nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=bairro next2T=n next2Cap=min palpite=O
+no n ini=ncap cap=min simb=alpha prevW=, prevT=punc prevCap=null nextW=bairro nextT=n nextCap=min prev2W=Antiques prev2T=n prev2Cap=maxmin next2W=de next2T=prp next2Cap=min palpite=O
+bairro n ini=ncap cap=min simb=alpha prevW=no prevT=n prevCap=min nextW=de nextT=prp nextCap=min prev2W=, prev2T=punc prev2Cap=null next2W=Moema next2T=n next2Cap=maxmin palpite=O
+de prp ini=ncap cap=min simb=alpha prevW=bairro prevT=n prevCap=min nextW=Moema nextT=n nextCap=maxmin prev2W=no prev2T=n prev2Cap=min next2W=, next2T=punc next2Cap=null palpite=O
+Moema n ini=cap cap=maxmin simb=alpha prevW=de prevT=prp prevCap=min nextW=, nextT=punc nextCap=null prev2W=bairro prev2T=n prev2Cap=min next2W=em next2T=prp next2Cap=min palpite=I_LOCAL
+, punc ini=simb cap=null simb=null prevW=Moema prevT=n prevCap=maxmin nextW=em nextT=prp nextCap=min prev2W=de prev2T=prp prev2Cap=min next2W=S next2T=adj next2Cap=max palpite=O
+em prp ini=ncap cap=min simb=alpha prevW=, prevT=punc prevCap=null nextW=S nextT=adj nextCap=max prev2W=Moema prev2T=n prev2Cap=maxmin next2W=? next2T=punc next2Cap=null palpite=O
+S adj ini=cap cap=max simb=alpha prevW=em prevT=prp prevCap=min nextW=? nextT=punc nextCap=null prev2W=, prev2T=punc prev2Cap=null next2W=null next2T=null next2Cap=null palpite=I_LOCAL
+? punc ini=simb cap=null simb=null prevW=S prevT=adj prevCap=max nextW=null nextT=null nextCap=null prev2W=em prev2T=prp prev2Cap=min next2W=null next2T=null next2Cap=null palpite=O
