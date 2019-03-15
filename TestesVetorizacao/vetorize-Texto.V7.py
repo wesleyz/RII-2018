@@ -16,9 +16,9 @@ def LoadArquivsaida():
     
     documento = {}
     file = path + '/Senhora/TreinoPVetorizar.txt'    
-    #file = path +'/ArqsTeste/portaria4/portaria4.txt'
-    #file = path + '/ArqsTeste/1525092006con/1525092006con.txt'
-    #file = path +'/ArqsTeste/1505082006mul/1505082006mul.txt'
+    #file = path +'/ArqsTeste/portaria1/portaria1.txt'
+    #file = path + '/ArqsTeste/1506052006mul/1506052006mul.txt'
+    #file = path +'/ArqsTeste/1606112006con/1606112006con.txt'
     #file = path +'/ArqsTeste/1605082006mul/1605082006mul.txt'
     #file = path + '/HAREM/TreinoPVetorizar.txt'
 
@@ -127,28 +127,6 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_
 from sklearn import metrics
 from sklearn.neighbors import KNeighborsClassifier
 
-# instantiate the model (using the default parameters)
-#logreg = LogisticRegression()
-
-#logreg = LogisticRegression()
-#logreg.fit(X_train, y_train)
-
-
-#y_pred = logreg.predict(X_test)
-#print(metrics.accuracy_score(y_test, y_pred))
-
-#knn = KNeighborsClassifier(n_neighbors=5)
-#knn.fit(X_train, y_train)
-#y_pred = knn.predict(X_test)
-#print(metrics.accuracy_score(y_test, y_pred))
-
-#y_pred = logreg.predict(X_test)
-#print(metrics.accuracy_score(y_test, y_pred))
-
-#knn = KNeighborsClassifier(n_neighbors=5)
-#knn.fit(X_train, y_train)
-#y_pred = knn.predict(X_test)
-#print(metrics.accuracy_score(y_test, y_pred))
 
 
 
@@ -171,7 +149,7 @@ for k in k_range:
     best.append((k, auxScore))
     
 
-#print(scores)
+print(scores)
 
 # import Matplotlib (scientific plotting library)
 import matplotlib.pyplot as plt
@@ -183,8 +161,13 @@ import matplotlib.pyplot as plt
 # plt.plot(x_axis, y_axis)
 
 plt.plot(k_range, scores)
+
+
+
 plt.xlabel('Value of K for KNN')
 plt.ylabel('Testing Accuracy')
+
+
 
 from sklearn.metrics import classification_report
 
@@ -220,9 +203,8 @@ for i in linha:
         if i != j:
         #if True:
             valorSm = simil[i][j]
-            if (valorSm >= 0.75) or (valorSm <= 0.25):
-            
-        #if True:
+            #if True:
+            if (valorSm >= 0.80) or (valorSm <= 0.20):
                 reduz.append((i,j,valorSm))
             
             
@@ -239,7 +221,7 @@ for rd in reduz:
     #auxColuna.append(rd[1])
     
 j = pd.Series(auxColuna)
-k = pd.Series(auxItem).unique()
+kItem = pd.Series(auxItem)
 
 #ax = j.hist()  # s is an instance of Series
 #fig = ax.get_figure()
@@ -248,7 +230,12 @@ k = pd.Series(auxItem).unique()
 
 
 
+
+
 dfReduz = df.ix[auxItem]
+#dfReduz["label"] = dfReduz["label"].astype('category')
+
+
 y_trainReduz = dfReduz.label
 
 
@@ -288,7 +275,7 @@ from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=4)
 
 
-k_range = range(3,7)
+k_range = range(2,8)
 
 # We can create Python dictionary using [] or dict()
 scores = []
@@ -316,3 +303,17 @@ best = dict(best)
 print('Best Value for K is: %d' % max(best, key=best.get))
 print('Acc Score: %f' % max(scores))
 #ax = sns.heatmap(simil,  vmin=0, vmax=1, cmap="YlGnBu")
+
+
+df["label"] = df["label"].astype('category')
+
+import pandas as pd
+import numpy as np
+from sklearn import linear_model
+import matplotlib.pyplot as plt
+
+
+reg = linear_model.LinearRegression()
+#reg.fit(X,y)
+#sns.heatmap(simil, cmap="YlGnBu")
+

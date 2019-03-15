@@ -156,11 +156,11 @@ def main(caminho):
 
 #file = path + '/Senhora/TreinoPVetorizar.txt'    
 #file = path + '/1506052006mul.txt'    
-#documentos = ['/Senhora/TreinoPVetorizar.txt', '/caixa-saida/ArqsTeste/SampleSenhora/SampleSenhora_00_features.txt']
-documentos = ['/1506052006mul.txt','/Senhora/TreinoPVetorizar.txt'] #,  '/HAREM/TreinoPVetorizar.txt']
-documentos = ['/ArqsTeste/portaria1/portaria1.txt', '/ArqsTeste/portaria2/portaria2.txt', '/ArqsTeste/portaria3/portaria3.txt', '/ArqsTeste/portaria4/portaria4.txt'] #, '/ArqsTeste/portaria4/portaria4.txt', '/ArqsTeste/1609102006con/1609102006con.txt', '/ArqsTeste/1605082006mul/1605082006mul.txt', '/ArqsTeste/1525092006con/1525092006con.txt', '/ArqsTeste/1506052006mul/1506052006mul.txt', '/ArqsTeste/1505082006mul/1505082006mul.txt']
-documentos = ['/ArqsTeste/portaria1/portaria1.txt'] #, '/ArqsTeste/portaria2/portaria2.txt'] #, '/ArqsTeste/portaria3/portaria3.txt', '/ArqsTeste/portaria4/portaria4.txt'] #, '/ArqsTeste/portaria4/portaria4.txt', '/ArqsTeste/1609102006con/1609102006con.txt', '/ArqsTeste/1605082006mul/1605082006mul.txt', '/ArqsTeste/1525092006con/1525092006con.txt', '/ArqsTeste/1506052006mul/1506052006mul.txt', '/ArqsTeste/1505082006mul/1505082006mul.txt']
-documentos = ['//1506052006mul.txt']
+documentos = ['/Senhora/TreinoPVetorizar.txt', '/caixa-saida/ArqsTeste/SampleSenhora/SampleSenhora_00_features.txt']
+#documentos = ['/1506052006mul.txt','/Senhora/TreinoPVetorizar.txt'] #,  '/HAREM/TreinoPVetorizar.txt']
+#documentos = ['/ArqsTeste/portaria1/portaria1.txt', '/ArqsTeste/portaria2/portaria2.txt', '/ArqsTeste/portaria3/portaria3.txt', '/ArqsTeste/portaria4/portaria4.txt'] #, '/ArqsTeste/portaria4/portaria4.txt', '/ArqsTeste/1609102006con/1609102006con.txt', '/ArqsTeste/1605082006mul/1605082006mul.txt', '/ArqsTeste/1525092006con/1525092006con.txt', '/ArqsTeste/1506052006mul/1506052006mul.txt', '/ArqsTeste/1505082006mul/1505082006mul.txt']
+#documentos = ['/ArqsTeste/portaria1/portaria1.txt'] #, '/ArqsTeste/portaria2/portaria2.txt'] #, '/ArqsTeste/portaria3/portaria3.txt', '/ArqsTeste/portaria4/portaria4.txt'] #, '/ArqsTeste/portaria4/portaria4.txt', '/ArqsTeste/1609102006con/1609102006con.txt', '/ArqsTeste/1605082006mul/1605082006mul.txt', '/ArqsTeste/1525092006con/1525092006con.txt', '/ArqsTeste/1506052006mul/1506052006mul.txt', '/ArqsTeste/1505082006mul/1505082006mul.txt']
+#documentos = ['//1506052006mul.txt']
 #documentos = ['/ArqsTeste/1609102006con/1609102006con.txt', '/ArqsTeste/1605082006mul/1605082006mul.txt', '/ArqsTeste/1525092006con/1525092006con.txt', '/ArqsTeste/1506052006mul/1506052006mul.txt', '/ArqsTeste/1505082006mul/1505082006mul.txt']
 for i in documentos:
     main(i)

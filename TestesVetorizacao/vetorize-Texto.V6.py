@@ -181,12 +181,12 @@ def main(caminho):
         
     j = pd.Series(auxColuna)
         
-    j.hist()
+    #j.hist()
     
-    ax = j.hist()  # s is an instance of Series
-    fig = ax.get_figure()
-    nome = ' '.join(caminho).replace('/', '-').replace(' ', '')+'.pdf'
-    fig.savefig(nome)
+    #ax = j.hist()  # s is an instance of Series
+    #fig = ax.get_figure()
+    #nome = ' '.join(caminho).replace('/', '-').replace(' ', '')+'.pdf'
+    #fig.savefig(nome)
     
 
 
