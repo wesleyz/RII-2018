@@ -14,17 +14,21 @@ import pandas as pd
 def LoadArquivsaida():    
     colecao  = []
     documento = {}
-    file = path + '/Senhora/TreinoPVetorizar.txt'
+    file = path + '/miniharem/NER-20-portarias_treino.txt'
     
     with open(file, 'r', encoding='utf-8') as infile:
         for line in infile:
             #print(line)
             valor = line.split(" ")#.replace(' ','').decode("ISO-8859-1").split('\n')
-            if len(valor)>1:                
+            
+            
+            print(len(valor))
+            print(valor)
+            if len(valor)>3:                
                 cont=0
                 print('tamanho split', len(valor))
                 documento['word']=valor[0]
-                documento['label']=valor[18].replace('\n','')
+                documento['label']=valor[19].replace('\n','')
                 documento['tipo']=valor[1].replace('\n','')
                 
                 
@@ -77,20 +81,59 @@ def LoadArquivsaida():
     return colecao, documento
 
 
+
 k, l = LoadArquivsaida()
 
-df = pd.DataFrame.from_dict(k)
-#df.loc[df['label'] == 'I_PESSOA', 'label'] = 1
-#df.loc[df['palpite'] == 'I_PESSOA', 'palpite'] = 1
-#df.loc[df['palpite'] == 'O', 'palpite'] = 0
-#df.loc[df['label'] == 'O', 'label'] = 0
 
 
-x_columns = ['cap', 'ini', 'label', 'next2Cap', 'next2T', 'next2W', 'nextCap', 'nextT', 'nextW', 'palpite', 'prev2Cap', 'prev2T', 'prev2W', 'prevCap', 'prevT', 'prevW', 'simb',  'tipo', 'word'] #['age', 'g', 'gs', 'mp', 'fg', 'fga', 'fg.', 'x3p', 'x3pa', 'x3p.', 'x2p', 'x2pa', 'x2p.', 'efg.', 'ft', 'fta', 'ft.', 'orb', 'drb', 'trb', 'ast', 'stl', 'blk', 'tov', 'pf']
 
+
+x_columns = ['word', 'label', 'tipo', 'ini', 'cap', 'simb', 'prevW', 'prevT', 'prevCap', 'nextW', 'nextT', 'nextCap', 'prev2W', 'prev2T', 'prev2Cap', 'next2W', 'next2T', 'next2Cap', 'palpite']
+#x_columns = ['word', 'tipo', 'ini', 'cap', 'simb', 'prevW', 'prevT', 'prevCap', 'nextW', 'nextT', 'nextCap', 'prev2W', 'prev2T', 'prev2Cap', 'next2W', 'next2T', 'next2Cap', 'palpite']
+df = pd.DataFrame.from_dict(k) #, columns=x_columns)
+
+for col in x_columns:
+    print(col)
+    df[col] = df[col].astype('category')
+    
+cat_columns = df.select_dtypes(['category']).columns
+dfC = df.copy()
+df[cat_columns] = df[cat_columns].apply(lambda x: x.cat.codes)
+
+
+df2 = df.drop(columns=['label'])
+df3 = pd.DataFrame(dfC.label)
+df2.to_csv('features-NER-20-portarias_treino.csv',  header=True, index=False)
+df.label.to_csv('labels-values-NER-20-portarias_treino.csv',  header=True, index=False)
+dfC.label.to_csv('labels-names-NER-20-portarias_treino.csv',  header=True, index=False)
+df.to_csv('full-NER-20-portarias_treino.csv',  header=True, index=False)
+
+
+
+
+
+'''
+from numpy import linalg as LA
+w, v = LA.eigh(df.cov())
+wS = pd.Series(w)
+wS.hist()
+v.shape
+w.shape
+df5 = pd.DataFrame(w)
+df5.plot()
+df5 = pd.DataFrame(v)
+df5.plot()
+df5.hist()
+df5.plot()
+'''
+
+'''
+df = pd.DataFrame.from_dict(k) #, columns=x_columns)
 df.to_csv('matriz-features.csv',  header=True)
 
-#y_train, y_test = data_train.target, data_test.target
+
+df2 = df.drop(columns=['label'])
+dfLabel = df.label
 
 from sklearn.base import TransformerMixin
 from sklearn.pipeline import make_pipeline
@@ -109,185 +152,47 @@ class RowIterator(TransformerMixin):
 vectorizer = make_pipeline(RowIterator(), DictVectorizer())
 
 # now you can use vectorizer as you might expect, e.g.
-dfV = vectorizer.fit_transform(df)
+dfV = vectorizer.fit_transform(df2)
 
+from sklearn.model_selection import train_test_split
 
-
-
-
-import random
-import math
-from numpy.random import permutation
-
-random_indices = permutation(df.index)
-test_cutoff = math.floor(len(df)/3)
-
-test = df.loc[random_indices[1:test_cutoff]]
-train = df.loc[random_indices[test_cutoff:]]
-
-
-y_train, y_test = train.label, test.label
-
-trainV = vectorizer.fit_transform(test)
-testV = vectorizer.fit_transform(train)
-
-
-
-
-
-#y_train = y_train.to_sparse()
-#y_test = y_test.to_sparse()
-
-#from sklearn.neighbors import KNeighborsClassifier
-#neigh = KNeighborsClassifier(n_neighbors=3)
-#neigh.fit(train,y_train) 
-
-'''
-valoresU = {}
-
-for cols in x_columns:
-    vals = df[cols].unique().tolist()    
-    valoresU[cols]=(vals)
-
-def getIndexColum(coluna):
-    aux = valoresU[coluna]    
-    for a in aux:
-        print (a, aux.index(a))
-    
-    
-def getIndexColumRow(coluna, linha):
-    aux = valoresU[coluna]    
-    for a in aux:
-        print (a, aux.index(a))
-    
-
-for testes in x_columns:
-    getIndexColum(testes)
-
-'''
-'''
-
-#>>> from sklearn.neighbors import KNeighborsClassifier
-#>>> neigh = KNeighborsClassifier(n_neighbors=3)
-#>>> neigh.fit(X, y) 
-
-3>>> print(neigh.predict([[1.1]]))
-
-#>>> print(neigh.predict_proba([[0.9]]))
-
-y_column = train["label"]
-
-# The columns that we will be making predictions with.
-x_columns = z #['cap', 'ini', 'label', 'next2Cap', 'next2T', 'next2W', 'nextCap', 'nextT', 'nextW', 'palpite', 'prev2Cap', 'prev2T', 'prev2W', 'prevCap', 'prevT', 'prevW', 'simb',  'tipo', 'word'] #['age', 'g', 'gs', 'mp', 'fg', 'fga', 'fg.', 'x3p', 'x3pa', 'x3p.', 'x2p', 'x2pa', 'x2p.', 'efg.', 'ft', 'fta', 'ft.', 'orb', 'drb', 'trb', 'ast', 'stl', 'blk', 'tov', 'pf']
-# The column that we want to predict.
-y_column = vectorizer.fit_transform(df["label"])
-
-from sklearn.neighbors import KNeighborsRegressor
-# Create the knn model.
-# Look at the five closest neighbors.
-knn = KNeighborsRegressor(n_neighbors=5)
-# Fit the model on the training data.
-knn.fit(train[x_columns], train[y_column])
-# Make point predictions on the test set using the fit model.
-predictions = knn.predict(test[x_columns])
-'''
-
-
-
-'''
-import random
-import math
-from numpy.random import permutation
 import numpy as np
+from sklearn.preprocessing import LabelEncoder
+from sklearn.preprocessing.label import _encode
+from sklearn.utils import column_or_1d
+x = column_or_1d(df.label, warn=True)
+classes_,encoded_values = _encode(x,uniques=np.array(['O', 'B_PESSOA', 'I_PESSOA', 'B_VALOR', 'I_VALOR', 'B_TEMPO',
+       'B_LOCAL', 'I_LOCAL', 'B_ORGANIZACAO', 'I_TEMPO', 'I_ORGANIZACAO']),encode=True)
+encoded_values, classes_
 
-pd.DataFrame(df).fillna(0)
-nba = df
+#(array([0, 1, 2, 1, 0, 1, 2]), ['GA', 'TA', 'SA'])
 
+#comparing with labelencoder, which will sort the labels before encoding
+le = LabelEncoder()
 
-# Randomly shuffle the index of nba.
-random_indices = permutation(nba.index)
-# Set a cutoff for how many items we want in the test set (in this case 1/3 of the items)
-test_cutoff = math.floor(len(nba)/3)
+le.fit_transform(x),le.classes_
 
-#np.any(np.isnan(test_cutoff))
-# Generate the test set by taking the first 1/3 of the randomly shuffled indices.
-test = nba.loc[random_indices[1:test_cutoff]]
-
-# Generate the train set with the rest of the data.
-train = nba.loc[random_indices[test_cutoff:]]
-
-
+yCategorical = le.fit_transform(x)
 
 
+X_train, X_test, y_train, y_test = train_test_split(dfV, le.fit_transform(x), test_size=0.33, random_state=42)
 
-
-
-
-# The columns that we will be making predictions with.
-x_columns = z #['cap', 'ini', 'label', 'next2Cap', 'next2T', 'next2W', 'nextCap', 'nextT', 'nextW', 'palpite', 'prev2Cap', 'prev2T', 'prev2W', 'prevCap', 'prevT', 'prevW', 'simb',  'tipo', 'word'] #['age', 'g', 'gs', 'mp', 'fg', 'fga', 'fg.', 'x3p', 'x3pa', 'x3p.', 'x2p', 'x2pa', 'x2p.', 'efg.', 'ft', 'fta', 'ft.', 'orb', 'drb', 'trb', 'ast', 'stl', 'blk', 'tov', 'pf']
-# The column that we want to predict.
-y_column = df["label"]
 
 from sklearn.neighbors import KNeighborsRegressor
 # Create the knn model.
 # Look at the five closest neighbors.
 knn = KNeighborsRegressor(n_neighbors=5)
 # Fit the model on the training data.
-knn.fit(train[x_columns], train[y_column])
+knn.fit(X_train, y_train)
 # Make point predictions on the test set using the fit model.
-predictions = knn.predict(test[x_columns])
+predictions = knn.predict(X_test)
+
+
+from sklearn.metrics import classification_report
+print(classification_report(y_test, predictions))
+
+for i,j in zip(y_test, predictions):
+    print(i,j)
 
 '''
 
-
-'''
-from time import time
-from sklearn import metrics
-from sklearn.utils.extmath import density
-from sklearn.neighbors import KNeighborsClassifier
-
-def benchmark(clf):
-    print('_' * 80)
-    print("Training: ")
-    print(clf)
-    t0 = time()
-    clf.fit(train, y_train)
-    train_time = time() - t0
-    print("train time: %0.3fs" % train_time)
-
-    t0 = time()
-    pred = clf.predict(test)
-    test_time = time() - t0
-    print("test time:  %0.3fs" % test_time)
-
-    score = metrics.accuracy_score(y_test, pred)
-    print("accuracy:   %0.3f" % score)
-
-    
-    if hasattr(clf, 'coef_'):
-        print("dimensionality: %d" % clf.coef_.shape[1])
-        print("density: %f" % density(clf.coef_))
-
-        #if opts.print_top10 and x_columns is not None:
-        #    print("top 10 keywords per class:")
-        #    for i, category in enumerate(categories):
-        #        top10 = np.argsort(clf.coef_[i])[-10:]
-        #        print(trim("%s: %s"
-        #              % (category, " ".join(x_columns[top10]))))
-        #print()
-
-    if opts.print_report:
-        print("classification report:")
-        print(metrics.classification_report(y_test, pred,
-                                            target_names=categories))
-
-    if opts.print_cm:
-        print("confusion matrix:")
-        print(metrics.confusion_matrix(y_test, pred))
-
-    print()
-    clf_descr = str(clf).split('(')[0]
-    return clf_descr, score, train_time, test_time
-    
-benchmark((KNeighborsClassifier(n_neighbors=10), "kNN"))
-'''

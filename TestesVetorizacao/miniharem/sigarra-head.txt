@@ -1,0 +1,10 @@
+2º adj ini=simb cap=null simb=null prevW=null prevT=null prevCap=null nextW=SEMESTRE nextT=n nextCap=max prev2W=null prev2T=null prev2Cap=null next2W=2016/2017 next2T=num next2Cap=null fadeup-14472 palpite=B_VALOR O
+SEMESTRE n ini=cap cap=max simb=alpha prevW=2º prevT=adj prevCap=null nextW=2016/2017 nextT=num nextCap=null prev2W=null prev2T=null prev2Cap=null next2W=| next2T=n next2Cap=null fadeup-14472 palpite=O O
+2016/2017 num ini=simb cap=null simb=null prevW=SEMESTRE prevT=n prevCap=max nextW=| nextT=n nextCap=null prev2W=2º prev2T=adj prev2Cap=null next2W=Inscrição next2T=n next2Cap=maxmin fadeup-14472 palpite=O O
+| n ini=simb cap=null simb=null prevW=2016/2017 prevT=num prevCap=null nextW=Inscrição nextT=n nextCap=maxmin prev2W=SEMESTRE prev2T=n prev2Cap=max next2W=em next2T=prp next2Cap=min fadeup-14472 palpite=O O
+Inscrição n ini=cap cap=maxmin simb=alpha prevW=| prevT=n prevCap=null nextW=em nextT=prp nextCap=min prev2W=2016/2017 prev2T=num prev2Cap=null next2W=Unidades next2T=n next2Cap=maxmin fadeup-14472 palpite=O O
+em prp ini=ncap cap=min simb=alpha prevW=Inscrição prevT=n prevCap=maxmin nextW=Unidades nextT=n nextCap=maxmin prev2W=| prev2T=n prev2Cap=null next2W=Curriculares next2T=n next2Cap=maxmin fadeup-14472 palpite=O O
+Unidades n ini=cap cap=maxmin simb=alpha prevW=em prevT=prp prevCap=min nextW=Curriculares nextT=n nextCap=maxmin prev2W=Inscrição prev2T=n prev2Cap=maxmin next2W=Singulares next2T=n next2Cap=maxmin fadeup-14472 palpite=B_LOCAL O
+Curriculares n ini=cap cap=maxmin simb=alpha prevW=Unidades prevT=n prevCap=maxmin nextW=Singulares nextT=n nextCap=maxmin prev2W=em prev2T=prp prev2Cap=min next2W=De next2T=prp next2Cap=maxmin fadeup-14472 palpite=I_LOCAL O
+Singulares n ini=cap cap=maxmin simb=alpha prevW=Curriculares prevT=n prevCap=maxmin nextW=De nextT=prp nextCap=maxmin prev2W=Unidades prev2T=n prev2Cap=maxmin next2W=9 next2T=num next2Cap=null fadeup-14472 palpite=I_LOCAL O
+De prp ini=cap cap=maxmin simb=alpha prevW=Singulares prevT=n prevCap=maxmin nextW=9 nextT=num nextCap=null prev2W=Curriculares prev2T=n prev2Cap=maxmin next2W=a next2T=art next2Cap=min fadeup-14472 palpite=I_LOCAL O

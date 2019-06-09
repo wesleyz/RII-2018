@@ -1,0 +1,10 @@
+Da n ini=cap cap=maxmin simb=alpha prevW=null prevT=null prevCap=null nextW=Bauhaus nextT=prop nextCap=maxmin prev2W=null prev2T=null prev2Cap=null next2W=para next2T=prp next2Cap=min 2ght33-2 palpite=O O
+Bauhaus prop ini=cap cap=maxmin simb=alpha prevW=Da prevT=n prevCap=maxmin nextW=para nextT=prp nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=... next2T=punc next2Cap=null 2ght33-2 palpite=B_ORGANIZACAO O
+para prp ini=ncap cap=min simb=alpha prevW=Bauhaus prevT=prop prevCap=maxmin nextW=... nextT=punc nextCap=null prev2W=Da prev2T=n prev2Cap=maxmin next2W=a next2T=art next2Cap=min 2ght33-2 palpite=O O
+... punc ini=simb cap=null simb=null prevW=para prevT=prp prevCap=min nextW=a nextT=art nextCap=min prev2W=Bauhaus prev2T=prop prev2Cap=maxmin next2W=House next2T=prop next2Cap=maxmin 2ght33-2 palpite=O O
+a art ini=ncap cap=min simb=alpha prevW=... prevT=punc prevCap=null nextW=House nextT=prop nextCap=maxmin prev2W=para prev2T=prp prev2Cap=min next2W=: next2T=punc next2Cap=null 2ght33-2 palpite=O O
+House prop ini=cap cap=maxmin simb=alpha prevW=a prevT=art prevCap=min nextW=: nextT=punc nextCap=null prev2W=... prev2T=punc prev2Cap=null next2W=null next2T=null next2Cap=null 2ght33-2 palpite=O O
+: punc ini=simb cap=null simb=null prevW=House prevT=prop prevCap=maxmin nextW=null nextT=null nextCap=null prev2W=a prev2T=art prev2Cap=min next2W=null next2T=null next2Cap=null 2ght33-2 palpite=O O
+  
+" punc ini=simb cap=null simb=null prevW=null prevT=null prevCap=null nextW=Eu nextT=pron-pers nextCap=maxmin prev2W=null prev2T=null prev2Cap=null next2W=estou next2T=v-fin next2Cap=min 2ght33-2 palpite=O O
+Eu pron-pers ini=cap cap=maxmin simb=alpha prevW=" prevT=punc prevCap=null nextW=estou nextT=v-fin nextCap=min prev2W=null prev2T=null prev2Cap=null next2W=tentando next2T=n next2Cap=min 2ght33-2 palpite=O O
